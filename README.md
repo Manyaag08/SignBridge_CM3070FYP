@@ -1,7 +1,7 @@
 # SignBridge
 
 Real-time two-way sign language and speech communication through orchestrated pre-trained AI models
-(University of London CM3070, Template I, Project Idea 4.1: *Orchestrating AI models to achieve a goal*).
+(University of London CM3070, Project Idea 4.1: *Orchestrating AI models to achieve a goal*).
 
 A browser-based video call in which a Deaf signer and a hearing speaker understand each other. The app opens on a
 **feature-selection landing screen**: a caller picks "I sign" or "I speak" before anything else is shown, and that

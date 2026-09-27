@@ -1,0 +1,25 @@
+{
+  "tool": "axe-core 4.10.2 (automated), run in the browser on live_demo.html",
+  "date": "2026-09-15",
+  "rulesets": ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa", "best-practice"],
+  "passes": 21,
+  "incomplete": [{"rule": "color-contrast", "elements": 4, "note": "needs a human check (text over the video canvas)"}],
+  "violations": [
+    {"rule": "label", "impact": "critical", "wcag": "4.1.2 (A)", "elements": 3, "detail": "range sliders #persRange, #tauRange and #avSpeed have no label"},
+    {"rule": "select-name", "impact": "critical", "wcag": "4.1.2 (A)", "elements": 4, "detail": "drop-downs #profSel, #modelSel, #handSel, #calLetter have no accessible name"},
+    {"rule": "color-contrast", "impact": "serious", "wcag": "1.4.3 (AA)", "elements": 14, "detail": "10 px section labels #2e8b6f on #111817 = 4.31:1 (needs 4.5:1)"},
+    {"rule": "target-size", "impact": "serious", "wcag": "2.5.8 (AA, WCAG 2.2)", "elements": 3, "detail": "checkboxes are 13 x 13 px (needs 24 x 24 px or spacing)"},
+    {"rule": "scrollable-region-focusable", "impact": "serious", "wcag": "2.1.1 (A)", "elements": 1, "detail": "the letter reference grid scrolls but cannot be reached by keyboard"},
+    {"rule": "landmark-one-main", "impact": "moderate", "wcag": "best practice", "elements": 1, "detail": "no <main> landmark"},
+    {"rule": "region", "impact": "moderate", "wcag": "best practice", "elements": 63, "detail": "content not inside landmarks"}
+  ],
+  "manual_checks": [
+    {"check": "keyboard operation", "wcag": "2.1.1 (A)", "result": "fail", "detail": "Letters/Phrases tabs and the reference tiles are clickable <div>s with no tabindex, role or key handler"},
+    {"check": "status messages", "wcag": "4.1.3 (AA)", "result": "fail", "detail": "typed letters, the recognised-phrase banner, the sign strip and the transcript have no aria-live region, so screen readers are not told"},
+    {"check": "non-text content", "wcag": "1.1.1 (A)", "result": "fail", "detail": "the video and avatar canvases have no text alternative (the avatar's current sign is drawn, not announced)"},
+    {"check": "error messages", "wcag": "3.3.1 (A)", "result": "partial", "detail": "11 blocking alert/confirm/prompt dialogs with generic wording"},
+    {"check": "placeholder-only inputs", "wcag": "3.3.2 (A)", "result": "partial", "detail": "#newPhrase and #avText rely on placeholder text instead of a visible label"},
+    {"check": "language and captions", "wcag": "3.1.1 (A)", "result": "pass", "detail": "lang=en set; all speech output is also shown as text (important for Deaf users)"}
+  ],
+  "summary": {"violation_rules": 7, "critical_rules": 2, "serious_rules": 3, "wcag_a_aa_criteria_failed": 7, "manual_fails": 3}
+}

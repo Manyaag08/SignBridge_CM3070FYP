@@ -1,0 +1,2888 @@
+{
+ "S1": [
+  {
+   "id": "6930-75918-0000",
+   "speaker": 6930,
+   "ref": "CONCORD RETURNED TO ITS PLACE AMIDST THE TENTS",
+   "hyp": "Concorde returned to its place amidst the tents.",
+   "wer": 0.125,
+   "latency_ms": 619.6,
+   "dur_s": 3.5
+  },
+  {
+   "id": "6930-75918-0001",
+   "speaker": 6930,
+   "ref": "THE ENGLISH FORWARDED TO THE FRENCH BASKETS OF FLOWERS OF WHICH THEY HAD MADE A PLENTIFUL PROVISION TO GREET THE ARRIVAL OF THE YOUNG PRINCESS THE FRENCH IN RETURN INVITED THE ENGLISH TO A SUPPER WHICH WAS TO BE GIVEN THE NEXT DAY",
+   "hyp": "The English forwarded to the French baskets of flowers of which they had made a plentiful provision to greet the arrival of the young princess. The French, in return, invited the English to a supper, which was to be given the next day.",
+   "wer": 0.0,
+   "latency_ms": 701.2,
+   "dur_s": 14.22
+  },
+  {
+   "id": "6930-75918-0002",
+   "speaker": 6930,
+   "ref": "CONGRATULATIONS WERE POURED IN UPON THE PRINCESS EVERYWHERE DURING HER JOURNEY",
+   "hyp": "Congratulations, we're poured in upon the princess everywhere during her journey.",
+   "wer": 0.1818,
+   "latency_ms": 353.6,
+   "dur_s": 5.03
+  },
+  {
+   "id": "6930-75918-0003",
+   "speaker": 6930,
+   "ref": "FROM THE RESPECT PAID HER ON ALL SIDES SHE SEEMED LIKE A QUEEN AND FROM THE ADORATION WITH WHICH SHE WAS TREATED BY TWO OR THREE SHE APPEARED AN OBJECT OF WORSHIP THE QUEEN MOTHER GAVE THE FRENCH THE MOST AFFECTIONATE RECEPTION FRANCE WAS HER NATIVE COUNTRY AND SHE HAD SUFFERED TOO MUCH UNHAPPINESS IN ENGLAND FOR ENGLAND TO HAVE MADE HER FORGET FRANCE",
+   "hyp": "From the respect paid her on all sides, she seemed like a queen. And from the adoration with which she was treated by two or three, she appeared an object of worship. The Queen Mother gave the French the most affectionate reception. France was her native country, and she had suffered too much unhappiness in England for England to have made her forget France.",
+   "wer": 0.0,
+   "latency_ms": 905.2,
+   "dur_s": 23.32
+  },
+  {
+   "id": "6930-75918-0004",
+   "speaker": 6930,
+   "ref": "SHE TAUGHT HER DAUGHTER THEN BY HER OWN AFFECTION FOR IT THAT LOVE FOR A COUNTRY WHERE THEY HAD BOTH BEEN HOSPITABLY RECEIVED AND WHERE A BRILLIANT FUTURE OPENED BEFORE THEM",
+   "hyp": "She taught her daughter, then, by her own affection for it, that love for a country where they had both been hospitably received and where a brilliant future opened for them.",
+   "wer": 0.0323,
+   "latency_ms": 568.6,
+   "dur_s": 11.06
+  },
+  {
+   "id": "1320-122612-0011",
+   "speaker": 1320,
+   "ref": "IF A ROCK OR A RIVULET OR A BIT OF EARTH HARDER THAN COMMON SEVERED THE LINKS OF THE CLEW THEY FOLLOWED THE TRUE EYE OF THE SCOUT RECOVERED THEM AT A DISTANCE AND SELDOM RENDERED THE DELAY OF A SINGLE MOMENT NECESSARY",
+   "hyp": "If a rock, or a rivulet, or a bit of earth harder than common, severed the links of the clue they followed. The true eye of the scout recovered them at a distance, and seldom rendered the delay of a single moment necessary.",
+   "wer": 0.0233,
+   "latency_ms": 672.5,
+   "dur_s": 13.7
+  },
+  {
+   "id": "1320-122612-0012",
+   "speaker": 1320,
+   "ref": "EXTINGUISHED BRANDS WERE LYING AROUND A SPRING THE OFFALS OF A DEER WERE SCATTERED ABOUT THE PLACE AND THE TREES BORE EVIDENT MARKS OF HAVING BEEN BROWSED BY THE HORSES",
+   "hyp": "Extinguished brands were lying around a spring. The offels of a deer were scattered about the place, and the trees bore evident marks of having been browsed by the horses.",
+   "wer": 0.0333,
+   "latency_ms": 588.7,
+   "dur_s": 10.49
+  },
+  {
+   "id": "1320-122612-0013",
+   "speaker": 1320,
+   "ref": "A CIRCLE OF A FEW HUNDRED FEET IN CIRCUMFERENCE WAS DRAWN AND EACH OF THE PARTY TOOK A SEGMENT FOR HIS PORTION",
+   "hyp": "A circle of a few hundred feet in circumference was drawn, and each of the party took a segment for his portion.",
+   "wer": 0.0,
+   "latency_ms": 448.3,
+   "dur_s": 6.55
+  },
+  {
+   "id": "1320-122612-0014",
+   "speaker": 1320,
+   "ref": "THE EXAMINATION HOWEVER RESULTED IN NO DISCOVERY",
+   "hyp": "The examination, however, resulted in no discovery.",
+   "wer": 0.0,
+   "latency_ms": 325.4,
+   "dur_s": 3.52
+  },
+  {
+   "id": "1320-122612-0015",
+   "speaker": 1320,
+   "ref": "THE WHOLE PARTY CROWDED TO THE SPOT WHERE UNCAS POINTED OUT THE IMPRESSION OF A MOCCASIN IN THE MOIST ALLUVION",
+   "hyp": "The whole party crowded to the spot where Unkas pointed out the impression of a Mocasin in the Moist Illuvian.",
+   "wer": 0.15,
+   "latency_ms": 459.3,
+   "dur_s": 6.38
+  },
+  {
+   "id": "7729-102255-0001",
+   "speaker": 7729,
+   "ref": "THIS WAS AT THE MARCH ELECTION EIGHTEEN FIFTY FIVE",
+   "hyp": "This was at the March election 1855.",
+   "wer": 0.0,
+   "latency_ms": 312.1,
+   "dur_s": 3.45
+  },
+  {
+   "id": "7729-102255-0002",
+   "speaker": 7729,
+   "ref": "THAT SUMMER'S EMIGRATION HOWEVER BEING MAINLY FROM THE FREE STATES GREATLY CHANGED THE RELATIVE STRENGTH OF THE TWO PARTIES",
+   "hyp": "That summer's immigration, however, being mainly from the free states greatly changed the relative strengths of the two parties.",
+   "wer": 0.1,
+   "latency_ms": 421.3,
+   "dur_s": 8.3
+  },
+  {
+   "id": "7729-102255-0003",
+   "speaker": 7729,
+   "ref": "FOR GENERAL SERVICE THEREFORE REQUIRING NO SPECIAL EFFORT THE NUMERICAL STRENGTH OF THE FACTIONS WAS ABOUT EQUAL WHILE ON EXTRAORDINARY OCCASIONS THE TWO THOUSAND BORDER RUFFIAN RESERVE LYING A LITTLE FARTHER BACK FROM THE STATE LINE COULD AT ANY TIME EASILY TURN THE SCALE",
+   "hyp": "For general service, therefore, requiring no special effort, the numerical strength of the factions was about equal. While on extraordinary occasions, the 2000 border-referion reserve, lying a little farther back from the state line, could it any time easily turn the scale?",
+   "wer": 0.0465,
+   "latency_ms": 719.6,
+   "dur_s": 19.81
+  },
+  {
+   "id": "7729-102255-0004",
+   "speaker": 7729,
+   "ref": "THE FREE STATE MEN HAD ONLY THEIR CONVICTIONS THEIR INTELLIGENCE THEIR COURAGE AND THE MORAL SUPPORT OF THE NORTH THE CONSPIRACY HAD ITS SECRET COMBINATION THE TERRITORIAL OFFICIALS THE LEGISLATURE THE BOGUS LAWS THE COURTS THE MILITIA OFFICERS THE PRESIDENT AND THE ARMY",
+   "hyp": "The free state men had only their convictions, their intelligence, their courage, and the moral support of the North. The conspiracy had its secret combination, the territorial, officials, the legislature, the bogus laws, the courts, the militia officers, the president, and the army.",
+   "wer": 0.0,
+   "latency_ms": 757.0,
+   "dur_s": 20.16
+  },
+  {
+   "id": "7729-102255-0005",
+   "speaker": 7729,
+   "ref": "THIS WAS A FORMIDABLE ARRAY OF ADVANTAGES SLAVERY WAS PLAYING WITH LOADED DICE",
+   "hyp": "This was a formidable array of advantages. Slavery was playing with loaded dice.",
+   "wer": 0.0,
+   "latency_ms": 390.6,
+   "dur_s": 5.18
+  },
+  {
+   "id": "3575-170457-0024",
+   "speaker": 3575,
+   "ref": "I DON'T ALWAYS SUCCEED FOR SOMETIMES WHEN I'M TEACHING OR SEWING I WOULD RATHER BE READING OR WRITING BUT I TRY TO DENY MYSELF AND MY FATHER'S APPROBATION AMPLY REWARDED ME FOR THE PRIVATION",
+   "hyp": "I don't always succeed. For sometimes when I'm teaching or sewing, I would rather be reading or writing. But I tried to deny myself and my father's approbation, Amply rewarded me for the approbation.",
+   "wer": 0.0541,
+   "latency_ms": 896.9,
+   "dur_s": 12.26
+  },
+  {
+   "id": "3575-170457-0025",
+   "speaker": 3575,
+   "ref": "AGAIN I THANK YOU THIS INCIDENT I SUPPOSE WILL BE RENEWED NO MORE IF I LIVE TO BE AN OLD WOMAN I SHALL REMEMBER IT THIRTY YEARS HENCE AS A BRIGHT DREAM",
+   "hyp": "Again, I thank you. This incident, I suppose, will be renewed no more. If I live to be an old woman, I shall remember at 30 years hence as a bright dream.",
+   "wer": 0.0312,
+   "latency_ms": 580.1,
+   "dur_s": 9.21
+  },
+  {
+   "id": "3575-170457-0026",
+   "speaker": 3575,
+   "ref": "P S PRAY SIR EXCUSE ME FOR WRITING TO YOU A SECOND TIME I COULD NOT HELP WRITING PARTLY TO TELL YOU HOW THANKFUL I AM FOR YOUR KINDNESS AND PARTLY TO LET YOU KNOW THAT YOUR ADVICE SHALL NOT BE WASTED HOWEVER SORROWFULLY AND RELUCTANTLY IT MAY BE AT FIRST FOLLOWED C B",
+   "hyp": "P.S. Pricer excuse me for writing to you a second time. I could not help writing, partly to tell you how thankful I am for your kindness, and partly to let you know that your advice shall not be wasted, however sorefully and reluctantly it may be at first followed. C.B.",
+   "wer": 0.0556,
+   "latency_ms": 836.1,
+   "dur_s": 16.73
+  },
+  {
+   "id": "3575-170457-0027",
+   "speaker": 3575,
+   "ref": "I CANNOT DENY MYSELF THE GRATIFICATION OF INSERTING SOUTHEY'S REPLY",
+   "hyp": "I cannot deny myself the gratification of inserting so these reply.",
+   "wer": 0.1818,
+   "latency_ms": 346.1,
+   "dur_s": 4.58
+  },
+  {
+   "id": "3575-170457-0028",
+   "speaker": 3575,
+   "ref": "KESWICK MARCH TWENTY SECOND EIGHTEEN THIRTY SEVEN DEAR MADAM",
+   "hyp": "Kezwick, March 22, 1837. Dear Madame.",
+   "wer": 0.5,
+   "latency_ms": 369.5,
+   "dur_s": 5.53
+  },
+  {
+   "id": "2961-961-0004",
+   "speaker": 2961,
+   "ref": "LISTEN THEN SOCRATES TO A TALE OF SOLON'S WHO BEING THE FRIEND OF DROPIDAS MY GREAT GRANDFATHER TOLD IT TO MY GRANDFATHER CRITIAS AND HE TOLD ME",
+   "hyp": "Listen then, Socrates, to a tale of solace. Who, being the friend of Drobidus, my great grandfather, told it to my grandfather, Cridius, and he told me.",
+   "wer": 0.1429,
+   "latency_ms": 632.7,
+   "dur_s": 11.48
+  },
+  {
+   "id": "2961-961-0005",
+   "speaker": 2961,
+   "ref": "SOME POEMS OF SOLON WERE RECITED BY THE BOYS",
+   "hyp": "Some poems of Salon were recited by the boys.",
+   "wer": 0.1111,
+   "latency_ms": 333.5,
+   "dur_s": 3.77
+  },
+  {
+   "id": "2961-961-0006",
+   "speaker": 2961,
+   "ref": "AND WHAT WAS THE SUBJECT OF THE POEM SAID THE PERSON WHO MADE THE REMARK",
+   "hyp": "And what was the subject of the poem said the person who made the remark?",
+   "wer": 0.0,
+   "latency_ms": 392.7,
+   "dur_s": 4.6
+  },
+  {
+   "id": "2961-961-0007",
+   "speaker": 2961,
+   "ref": "THE SUBJECT WAS A VERY NOBLE ONE HE DESCRIBED THE MOST FAMOUS ACTION IN WHICH THE ATHENIAN PEOPLE WERE EVER ENGAGED",
+   "hyp": "The subject was a very noble one. He described the most famous action in which the Athenian people were ever engaged.",
+   "wer": 0.0,
+   "latency_ms": 507.6,
+   "dur_s": 8.51
+  },
+  {
+   "id": "2961-961-0008",
+   "speaker": 2961,
+   "ref": "BUT THE MEMORY OF THEIR EXPLOITS HAS PASSED AWAY OWING TO THE LAPSE OF TIME AND THE EXTINCTION OF THE ACTORS",
+   "hyp": "But the memory of their exploits had passed away, owing to the lapse of time and the extinction of the actors.",
+   "wer": 0.0476,
+   "latency_ms": 482.7,
+   "dur_s": 7.16
+  },
+  {
+   "id": "8230-279154-0038",
+   "speaker": 8230,
+   "ref": "WE ARE OF COURSE IN FACT ABLE TO JUDGE WHEN WE RECOGNIZE AN OBJECT THAT WE HAVE SEEN IT BEFORE BUT THIS JUDGMENT IS SOMETHING OVER AND ABOVE RECOGNITION IN THIS FIRST SENSE AND MAY VERY PROBABLY BE IMPOSSIBLE TO ANIMALS THAT NEVERTHELESS HAVE THE EXPERIENCE OF RECOGNITION IN THIS FIRST SENSE OF THE WORD",
+   "hyp": "We are, of course, in fact able to judge when we recognize an object that we have seen it before. But this judgment is something over and above recognition in this first sense, and may very probably be impossible to animals that nevertheless have the experience of recognition in this first sense of the word.",
+   "wer": 0.0,
+   "latency_ms": 834.0,
+   "dur_s": 22.49
+  },
+  {
+   "id": "8230-279154-0039",
+   "speaker": 8230,
+   "ref": "THIS KNOWLEDGE IS MEMORY IN ONE SENSE THOUGH IN ANOTHER IT IS NOT",
+   "hyp": "This knowledge is memory in one sense, though in another it is not.",
+   "wer": 0.0,
+   "latency_ms": 375.6,
+   "dur_s": 4.59
+  },
+  {
+   "id": "8230-279154-0040",
+   "speaker": 8230,
+   "ref": "THERE ARE HOWEVER SEVERAL POINTS IN WHICH SUCH AN ACCOUNT OF RECOGNITION IS INADEQUATE TO BEGIN WITH IT MIGHT SEEM AT FIRST SIGHT MORE CORRECT TO DEFINE RECOGNITION AS I HAVE SEEN THIS BEFORE THAN AS THIS HAS EXISTED BEFORE",
+   "hyp": "There are, however, several points in which such an account of recognition is inadequate. To begin with, it might seem at first sight more correct to define recognition as, I have seen this before, than as this has existed before.",
+   "wer": 0.0,
+   "latency_ms": 669.8,
+   "dur_s": 16.7
+  },
+  {
+   "id": "8230-279154-0041",
+   "speaker": 8230,
+   "ref": "THE DEFINITION OF MY EXPERIENCE IS DIFFICULT BROADLY SPEAKING IT IS EVERYTHING THAT IS CONNECTED WITH WHAT I AM EXPERIENCING NOW BY CERTAIN LINKS OF WHICH THE VARIOUS FORMS OF MEMORY ARE AMONG THE MOST IMPORTANT",
+   "hyp": "The definition of my experience is difficult. Broadly speaking, it is everything that is connected with what I am experiencing now by certain links of which the various forms of memory are among the most important.",
+   "wer": 0.0,
+   "latency_ms": 636.0,
+   "dur_s": 14.95
+  },
+  {
+   "id": "8230-279154-0042",
+   "speaker": 8230,
+   "ref": "THUS IF I RECOGNIZE A THING THE OCCASION OF ITS PREVIOUS EXISTENCE IN VIRTUE OF WHICH I RECOGNIZE IT FORMS PART OF MY EXPERIENCE BY DEFINITION RECOGNITION WILL BE ONE OF THE MARKS BY WHICH MY EXPERIENCE IS SINGLED OUT FROM THE REST OF THE WORLD",
+   "hyp": "Thus, if I recognize a thing, the occasion of its previous existence in virtue of which I recognize it forms part of my experience by definition. Recognition will be one of the marks by which my experience is singled out from the rest of the world.",
+   "wer": 0.0,
+   "latency_ms": 776.5,
+   "dur_s": 18.76
+  },
+  {
+   "id": "1995-1837-0009",
+   "speaker": 1995,
+   "ref": "THE LAGOON HAD BEEN LEVEL WITH THE DYKES A WEEK AGO AND NOW",
+   "hyp": "The lagoon had been leveled with the dykes a week ago, and now...",
+   "wer": 0.1538,
+   "latency_ms": 388.8,
+   "dur_s": 3.76
+  },
+  {
+   "id": "1995-1837-0010",
+   "speaker": 1995,
+   "ref": "PERHAPS SHE TOO MIGHT BE THERE WAITING WEEPING",
+   "hyp": "Perhaps she too might be there, waiting, weeping.",
+   "wer": 0.0,
+   "latency_ms": 346.1,
+   "dur_s": 3.48
+  },
+  {
+   "id": "1995-1837-0011",
+   "speaker": 1995,
+   "ref": "HE STARTED AT THE THOUGHT HE HURRIED FORTH SADLY",
+   "hyp": "He started at the thought. He hurried forth sadly.",
+   "wer": 0.0,
+   "latency_ms": 345.7,
+   "dur_s": 3.38
+  },
+  {
+   "id": "1995-1837-0012",
+   "speaker": 1995,
+   "ref": "HE SPLASHED AND STAMPED ALONG FARTHER AND FARTHER ONWARD UNTIL HE NEARED THE RAMPART OF THE CLEARING AND PUT FOOT UPON THE TREE BRIDGE",
+   "hyp": "He splashed and stamped a long farther and farther onward until he neared the rampart of the clearing and put foot upon the tree bridge.",
+   "wer": 0.0833,
+   "latency_ms": 510.5,
+   "dur_s": 8.24
+  },
+  {
+   "id": "1995-1837-0013",
+   "speaker": 1995,
+   "ref": "THEN HE LOOKED DOWN THE LAGOON WAS DRY",
+   "hyp": "Then he looked down the lagoon was dry",
+   "wer": 0.0,
+   "latency_ms": 330.3,
+   "dur_s": 3.19
+  },
+  {
+   "id": "5142-33396-0019",
+   "speaker": 5142,
+   "ref": "OH IT IS BETTER TO LIVE ON THE SEA AND LET OTHER MEN RAISE YOUR CROPS AND COOK YOUR MEALS",
+   "hyp": "Oh, it is better to live on the sea and let other men raise your crops and cook your meals.",
+   "wer": 0.0,
+   "latency_ms": 428.9,
+   "dur_s": 4.99
+  },
+  {
+   "id": "5142-33396-0020",
+   "speaker": 5142,
+   "ref": "A HOUSE SMELLS OF SMOKE A SHIP SMELLS OF FROLIC",
+   "hyp": "A house smells of smoke, a ship smells of frolic.",
+   "wer": 0.0,
+   "latency_ms": 370.6,
+   "dur_s": 3.31
+  },
+  {
+   "id": "5142-33396-0021",
+   "speaker": 5142,
+   "ref": "UP AND DOWN THE WATER WE WENT TO GET MUCH WEALTH AND MUCH FROLIC",
+   "hyp": "Up and down the water we went to get much wealth and much frolic.",
+   "wer": 0.0,
+   "latency_ms": 376.4,
+   "dur_s": 3.5
+  },
+  {
+   "id": "5142-33396-0022",
+   "speaker": 5142,
+   "ref": "WHAT OF THE FARM OLAF NOT YET I ANSWERED VIKING IS BETTER FOR SUMMER",
+   "hyp": "What is the farm all off? Not yet, I answered. Viking is better for summer.",
+   "wer": 0.2143,
+   "latency_ms": 432.9,
+   "dur_s": 4.77
+  },
+  {
+   "id": "5142-33396-0023",
+   "speaker": 5142,
+   "ref": "IT WAS SO DARK THAT I COULD SEE NOTHING BUT A FEW SPARKS ON THE HEARTH",
+   "hyp": "It was so dark that I could see nothing but a few sparks on the heart.",
+   "wer": 0.0625,
+   "latency_ms": 392.2,
+   "dur_s": 3.48
+  },
+  {
+   "id": "2830-3980-0005",
+   "speaker": 2830,
+   "ref": "DO YOU SUPPOSE THAT GOD FOR THE SAKE OF A FEW LUTHERAN HERETICS WOULD DISOWN HIS ENTIRE CHURCH",
+   "hyp": "Do you suppose that God, for the sake of a few Lutheran heretics, would disown his entire church?",
+   "wer": 0.0,
+   "latency_ms": 440.4,
+   "dur_s": 6.45
+  },
+  {
+   "id": "2830-3980-0006",
+   "speaker": 2830,
+   "ref": "AGAINST THESE BOASTING FALSE APOSTLES PAUL BOLDLY DEFENDS HIS APOSTOLIC AUTHORITY AND MINISTRY",
+   "hyp": "Against these boasting false apostles, Paul boldly defend his apostolic authority in ministry.",
+   "wer": 0.1538,
+   "latency_ms": 393.3,
+   "dur_s": 6.41
+  },
+  {
+   "id": "2830-3980-0007",
+   "speaker": 2830,
+   "ref": "AS THE AMBASSADOR OF A GOVERNMENT IS HONORED FOR HIS OFFICE AND NOT FOR HIS PRIVATE PERSON SO THE MINISTER OF CHRIST SHOULD EXALT HIS OFFICE IN ORDER TO GAIN AUTHORITY AMONG MEN",
+   "hyp": "As the ambassador of a government is honored for his office and not for his private person, so the minister of Christ should exalt his office in order to gain authority among men.",
+   "wer": 0.0,
+   "latency_ms": 551.9,
+   "dur_s": 10.19
+  },
+  {
+   "id": "2830-3980-0008",
+   "speaker": 2830,
+   "ref": "PAUL TAKES PRIDE IN HIS MINISTRY NOT TO HIS OWN PRAISE BUT TO THE PRAISE OF GOD",
+   "hyp": "Paul takes pride in his ministry, not to his own praise but to the praise of God.",
+   "wer": 0.0,
+   "latency_ms": 425.9,
+   "dur_s": 4.84
+  },
+  {
+   "id": "2830-3980-0009",
+   "speaker": 2830,
+   "ref": "PAUL AN APOSTLE NOT OF MEN ET CETERA",
+   "hyp": "Paul and Apostle, not of men, etc.",
+   "wer": 0.375,
+   "latency_ms": 360.2,
+   "dur_s": 3.88
+  },
+  {
+   "id": "4446-2273-0021",
+   "speaker": 4446,
+   "ref": "WHAT SHE WANTED FROM US WAS NEITHER OUR FLOWERS NOR OUR FRANCS BUT JUST OUR YOUTH",
+   "hyp": "What she wanted from us was neither our flowers nor our francs, but just our youth.",
+   "wer": 0.0,
+   "latency_ms": 447.1,
+   "dur_s": 5.25
+  },
+  {
+   "id": "4446-2273-0022",
+   "speaker": 4446,
+   "ref": "THEY WERE BOTH REMEMBERING WHAT THE WOMAN HAD SAID WHEN SHE TOOK THE MONEY GOD GIVE YOU A HAPPY LOVE",
+   "hyp": "They were both remembering what the woman had said when she took the money. God give you a happy love.",
+   "wer": 0.0,
+   "latency_ms": 492.3,
+   "dur_s": 5.87
+  },
+  {
+   "id": "4446-2273-0023",
+   "speaker": 4446,
+   "ref": "THE STRANGE WOMAN AND HER PASSIONATE SENTENCE THAT RANG OUT SO SHARPLY HAD FRIGHTENED THEM BOTH",
+   "hyp": "The strange woman and her passionate sentence that rang out so sharply had frightened them both.",
+   "wer": 0.0,
+   "latency_ms": 380.6,
+   "dur_s": 6.1
+  },
+  {
+   "id": "4446-2273-0024",
+   "speaker": 4446,
+   "ref": "BARTLEY STARTED WHEN HILDA RANG THE LITTLE BELL BESIDE HER DEAR ME WHY DID YOU DO THAT",
+   "hyp": "Bartley started when he'll derang the little bell beside her. Dear me, why did you do that?",
+   "wer": 0.1765,
+   "latency_ms": 624.2,
+   "dur_s": 4.83
+  },
+  {
+   "id": "4446-2273-0025",
+   "speaker": 4446,
+   "ref": "IT WAS VERY JOLLY HE MURMURED LAZILY AS MARIE CAME IN TO TAKE AWAY THE COFFEE",
+   "hyp": "It was very jolly he murmured lazily as Marie came in to take away the coffee.",
+   "wer": 0.0,
+   "latency_ms": 521.1,
+   "dur_s": 4.83
+  },
+  {
+   "id": "1221-135766-0005",
+   "speaker": 1221,
+   "ref": "HESTER COULD ONLY ACCOUNT FOR THE CHILD'S CHARACTER AND EVEN THEN MOST VAGUELY AND IMPERFECTLY BY RECALLING WHAT SHE HERSELF HAD BEEN DURING THAT MOMENTOUS PERIOD WHILE PEARL WAS IMBIBING HER SOUL FROM THE SPIRITUAL WORLD AND HER BODILY FRAME FROM ITS MATERIAL OF EARTH",
+   "hyp": "Hester could only account for the child's character, and even then most vaguely and imperfectly, by recalling what she herself had been during that momentous period, while Pearl was imbibing her soul from the spiritual world, and her bodily frame from its material of Earth.",
+   "wer": 0.0,
+   "latency_ms": 1038.7,
+   "dur_s": 16.64
+  },
+  {
+   "id": "1221-135766-0006",
+   "speaker": 1221,
+   "ref": "THEY WERE NOW ILLUMINATED BY THE MORNING RADIANCE OF A YOUNG CHILD'S DISPOSITION BUT LATER IN THE DAY OF EARTHLY EXISTENCE MIGHT BE PROLIFIC OF THE STORM AND WHIRLWIND",
+   "hyp": "They were now illuminated by the morning radiance of a young child's disposition, but later in the day of earthly existence might be prolific of the storm and whirlwind.",
+   "wer": 0.0,
+   "latency_ms": 605.3,
+   "dur_s": 11.41
+  },
+  {
+   "id": "1221-135766-0007",
+   "speaker": 1221,
+   "ref": "HESTER PRYNNE NEVERTHELESS THE LOVING MOTHER OF THIS ONE CHILD RAN LITTLE RISK OF ERRING ON THE SIDE OF UNDUE SEVERITY",
+   "hyp": "Hester Prin nevertheless, the loving mother of this one child, ran little risk of airing on the side of undue severity.",
+   "wer": 0.0952,
+   "latency_ms": 519.6,
+   "dur_s": 8.79
+  },
+  {
+   "id": "1221-135766-0008",
+   "speaker": 1221,
+   "ref": "MINDFUL HOWEVER OF HER OWN ERRORS AND MISFORTUNES SHE EARLY SOUGHT TO IMPOSE A TENDER BUT STRICT CONTROL OVER THE INFANT IMMORTALITY THAT WAS COMMITTED TO HER CHARGE",
+   "hyp": "mindful, however, of her own errors and misfortunes. She early sought to impose a tender but strict control over the infant immortality that was committed to her charge.",
+   "wer": 0.0,
+   "latency_ms": 574.0,
+   "dur_s": 10.78
+  },
+  {
+   "id": "1221-135766-0009",
+   "speaker": 1221,
+   "ref": "AS TO ANY OTHER KIND OF DISCIPLINE WHETHER ADDRESSED TO HER MIND OR HEART LITTLE PEARL MIGHT OR MIGHT NOT BE WITHIN ITS REACH IN ACCORDANCE WITH THE CAPRICE THAT RULED THE MOMENT",
+   "hyp": "As to any other kind of discipline, whether addressed to her mind or heart, little pearl might or might not be within its reach in accordance with the Caprice that ruled the moment.",
+   "wer": 0.0,
+   "latency_ms": 582.1,
+   "dur_s": 10.19
+  },
+  {
+   "id": "8224-274384-0004",
+   "speaker": 8224,
+   "ref": "AND THE MEN OF ISRAEL ANSWERED THE MEN OF JUDAH AND SAID WE HAVE TEN PARTS IN THE KING AND WE HAVE ALSO MORE RIGHT IN DAVID THAN YE WHY THEN DID YE DESPISE US THAT OUR ADVICE SHOULD NOT BE FIRST HAD IN BRINGING BACK OUR KING",
+   "hyp": "And the men of Israel answered the men of Judah and said, We have ten parts in the king, and we have also more right in David than ye. Why then, did ye despise us? That our advice should not be first had in bringing back our king?",
+   "wer": 0.0,
+   "latency_ms": 766.4,
+   "dur_s": 20.64
+  },
+  {
+   "id": "8224-274384-0005",
+   "speaker": 8224,
+   "ref": "ANOTHER PREACHER AFTER REPROACHING HIM TO HIS FACE WITH HIS MISGOVERNMENT ORDERED THIS PSALM TO BE SUNG",
+   "hyp": "Another preacher, after reproaching him to his face with his misgovernment, ordered this Psalm to be sung.",
+   "wer": 0.0,
+   "latency_ms": 458.6,
+   "dur_s": 8.74
+  },
+  {
+   "id": "8224-274384-0006",
+   "speaker": 8224,
+   "ref": "THE KING STOOD UP AND CALLED FOR THAT PSALM WHICH BEGINS WITH THESE WORDS",
+   "hyp": "The king stood up and called for that psalm which begins with these words.",
+   "wer": 0.0,
+   "latency_ms": 415.9,
+   "dur_s": 6.81
+  },
+  {
+   "id": "8224-274384-0007",
+   "speaker": 8224,
+   "ref": "HAVE MERCY LORD ON ME I PRAY FOR MEN WOULD ME DEVOUR",
+   "hyp": "Have mercy, Lord, on me, I pray, for men would meet the vower.",
+   "wer": 0.25,
+   "latency_ms": 392.8,
+   "dur_s": 6.23
+  },
+  {
+   "id": "8224-274384-0008",
+   "speaker": 8224,
+   "ref": "THE GOOD NATURED AUDIENCE IN PITY TO FALLEN MAJESTY SHOWED FOR ONCE GREATER DEFERENCE TO THE KING THAN TO THE MINISTER AND SUNG THE PSALM WHICH THE FORMER HAD CALLED FOR",
+   "hyp": "The good-natured audience, in pity to fall in majesty, showed for once greater deference to the king, then to the minister, and sang the psalm which the former had called for.",
+   "wer": 0.129,
+   "latency_ms": 847.1,
+   "dur_s": 13.42
+  },
+  {
+   "id": "672-122797-0043",
+   "speaker": 672,
+   "ref": "WHAT'S THE MEANING OF THIS THOUGHT THE TREE",
+   "hyp": "What's the meaning of this? Thought the tree.",
+   "wer": 0.0,
+   "latency_ms": 347.3,
+   "dur_s": 3.78
+  },
+  {
+   "id": "672-122797-0044",
+   "speaker": 672,
+   "ref": "AND HE LEANED AGAINST THE WALL LOST IN REVERIE",
+   "hyp": "and he leaned against the wall lost in reverie.",
+   "wer": 0.0,
+   "latency_ms": 326.2,
+   "dur_s": 3.74
+  },
+  {
+   "id": "672-122797-0045",
+   "speaker": 672,
+   "ref": "TIME ENOUGH HAD HE TOO FOR HIS REFLECTIONS FOR DAYS AND NIGHTS PASSED ON AND NOBODY CAME UP AND WHEN AT LAST SOMEBODY DID COME IT WAS ONLY TO PUT SOME GREAT TRUNKS IN A CORNER OUT OF THE WAY",
+   "hyp": "Time enough had he too for his reflections for days and nights passed on, and nobody came up. And when it last somebody did come, it was only to put some great trunks in a corner out of the way.",
+   "wer": 0.025,
+   "latency_ms": 627.6,
+   "dur_s": 13.96
+  },
+  {
+   "id": "672-122797-0046",
+   "speaker": 672,
+   "ref": "TIS NOW WINTER OUT OF DOORS THOUGHT THE TREE",
+   "hyp": "It is now winter out of doors. Thought the tree.",
+   "wer": 0.2222,
+   "latency_ms": 350.0,
+   "dur_s": 4.71
+  },
+  {
+   "id": "672-122797-0047",
+   "speaker": 672,
+   "ref": "HOW KIND MAN IS AFTER ALL",
+   "hyp": "How kind man is, after all?",
+   "wer": 0.0,
+   "latency_ms": 303.1,
+   "dur_s": 3.33
+  },
+  {
+   "id": "3729-6852-0043",
+   "speaker": 3729,
+   "ref": "I RESIDE IN THE MARAIS RUE DE DOUZE PORTES",
+   "hyp": "I reside in the Marrae Grouda du Sport.",
+   "wer": 0.5556,
+   "latency_ms": 360.0,
+   "dur_s": 4.21
+  },
+  {
+   "id": "3729-6852-0044",
+   "speaker": 3729,
+   "ref": "I WILL MAKE YOU TRANSLATE THEM INTO FRENCH AND YOU NEED NOT BE AFRAID OF MY FINDING YOU INSATIABLE",
+   "hyp": "I will make you translate them into French and you need not be afraid of my finding you insatiable.",
+   "wer": 0.0,
+   "latency_ms": 416.0,
+   "dur_s": 6.98
+  },
+  {
+   "id": "3729-6852-0045",
+   "speaker": 3729,
+   "ref": "HE HAD A GOOD APPETITE COULD TELL A GOOD STORY WITHOUT LAUGHING WAS CELEBRATED FOR HIS WITTY REPARTEES AND HIS SOCIABLE MANNERS BUT HE SPENT HIS LIFE AT HOME SELDOM GOING OUT AND SEEING HARDLY ANYONE BECAUSE HE ALWAYS HAD A PIPE IN HIS MOUTH AND WAS SURROUNDED BY AT LEAST TWENTY CATS WITH WHICH HE WOULD AMUSE HIMSELF ALL DAY",
+   "hyp": "He had a good appetite, could tell a good story without laughing, was celebrated for his witty repartees and his sociable manners, but he spent his life at home, seldom going out and seeing hardly anyone, because he always had a pipe in his mouth and was surrounded by at least 20 cats with which he would amuse himself all day.",
+   "wer": 0.0,
+   "latency_ms": 912.0,
+   "dur_s": 20.38
+  },
+  {
+   "id": "3729-6852-0046",
+   "speaker": 3729,
+   "ref": "HIS HOUSEKEEPER HAD THE MANAGEMENT OF EVERYTHING SHE NEVER ALLOWED HIM TO BE IN NEED OF ANYTHING AND SHE GAVE NO ACCOUNT OF HIS MONEY WHICH SHE KEPT ALTOGETHER BECAUSE HE NEVER ASKED HER TO RENDER ANY ACCOUNTS",
+   "hyp": "His housekeeper had the management of everything. She never allowed him to be in need of anything and she gave no account of his money, which she kept altogether, because he never asked her to render any accounts.",
+   "wer": 0.0,
+   "latency_ms": 618.8,
+   "dur_s": 12.61
+  },
+  {
+   "id": "1089-134691-0000",
+   "speaker": 1089,
+   "ref": "HE COULD WAIT NO LONGER",
+   "hyp": "He could wait no longer.",
+   "wer": 0.0,
+   "latency_ms": 288.6,
+   "dur_s": 2.08
+  },
+  {
+   "id": "2300-131720-0018",
+   "speaker": 2300,
+   "ref": "HE SOON FORESAW THAT STILL GREATER ECONOMY WOULD BE NECESSARY FOR COMMERCIAL SUCCESS NOT ALONE FOR THE LARGER TERRITORY OPENING BUT FOR THE COMPACT DISTRICTS OF LARGE CITIES",
+   "hyp": "He soon foresaw that still greater economy would be necessary for commercial success, not alone for the larger territory opening, but for the compact district of large cities.",
+   "wer": 0.0357,
+   "latency_ms": 514.3,
+   "dur_s": 12.54
+  },
+  {
+   "id": "2300-131720-0019",
+   "speaker": 2300,
+   "ref": "THE STRONG POSITION HELD BY THE EDISON SYSTEM UNDER THE STRENUOUS COMPETITION THAT WAS ALREADY SPRINGING UP WAS ENORMOUSLY IMPROVED BY THE INTRODUCTION OF THE THREE WIRE SYSTEM AND IT GAVE AN IMMEDIATE IMPETUS TO INCANDESCENT LIGHTING",
+   "hyp": "The strong position held by the Edison system under the strenuous competition that was already springing up was enormously improved by the introduction of the three-wire system, and it gave an immediate impetus to incandescent lighting.",
+   "wer": 0.0,
+   "latency_ms": 659.8,
+   "dur_s": 14.82
+  },
+  {
+   "id": "2300-131720-0020",
+   "speaker": 2300,
+   "ref": "IT WAS SPECIALLY SUITED FOR A TRIAL PLANT ALSO IN THE EARLY DAYS WHEN A YIELD OF SIX OR EIGHT LAMPS TO THE HORSE POWER WAS CONSIDERED SUBJECT FOR CONGRATULATION",
+   "hyp": "It was specially suited for a trial plant also. In the early days, when a yield of 6 or 8 lamps to the horsepower was considered subject for congratulation.",
+   "wer": 0.0667,
+   "latency_ms": 519.2,
+   "dur_s": 10.35
+  },
+  {
+   "id": "2300-131720-0021",
+   "speaker": 2300,
+   "ref": "THE STREET CONDUCTORS WERE OF THE OVERHEAD POLE LINE CONSTRUCTION AND WERE INSTALLED BY THE CONSTRUCTION COMPANY THAT HAD BEEN ORGANIZED BY EDISON TO BUILD AND EQUIP CENTRAL STATIONS",
+   "hyp": "The street conductors were of the overhead whole line construction, and were installed by the construction company that had been organized by Edison to build and equip central stations.",
+   "wer": 0.0345,
+   "latency_ms": 501.7,
+   "dur_s": 10.95
+  },
+  {
+   "id": "2300-131720-0022",
+   "speaker": 2300,
+   "ref": "MEANWHILE HE HAD CALLED UPON ME TO MAKE A REPORT OF THE THREE WIRE SYSTEM KNOWN IN ENGLAND AS THE HOPKINSON BOTH DOCTOR JOHN HOPKINSON AND MISTER EDISON BEING INDEPENDENT INVENTORS AT PRACTICALLY THE SAME TIME",
+   "hyp": "Meanwhile, he had called upon me to make a report of the three-wire system known in England as the Hopkinson. Both Dr. John Hopkinson and Mr. Edison being independent inventors at practically the same time.",
+   "wer": 0.0,
+   "latency_ms": 624.8,
+   "dur_s": 13.66
+  },
+  {
+   "id": "1580-141083-0016",
+   "speaker": 1580,
+   "ref": "I WAS IN SUCH A HURRY TO COME TO YOU YOU LEFT YOUR DOOR OPEN",
+   "hyp": "I was in such a hurry to come to you. You left your door open.",
+   "wer": 0.0,
+   "latency_ms": 393.0,
+   "dur_s": 4.25
+  },
+  {
+   "id": "1580-141083-0017",
+   "speaker": 1580,
+   "ref": "SO IT SEEMS TO ME",
+   "hyp": "So it seems to me.",
+   "wer": 0.0,
+   "latency_ms": 284.1,
+   "dur_s": 2.28
+  },
+  {
+   "id": "1580-141083-0018",
+   "speaker": 1580,
+   "ref": "NOW MISTER SOAMES AT YOUR DISPOSAL",
+   "hyp": "Now, Mr. Soms, at your disposal.",
+   "wer": 0.1667,
+   "latency_ms": 327.7,
+   "dur_s": 2.67
+  },
+  {
+   "id": "1580-141083-0019",
+   "speaker": 1580,
+   "ref": "ABOVE WERE THREE STUDENTS ONE ON EACH STORY",
+   "hyp": "Above were three students one on each story.",
+   "wer": 0.0,
+   "latency_ms": 309.0,
+   "dur_s": 2.71
+  },
+  {
+   "id": "1580-141083-0020",
+   "speaker": 1580,
+   "ref": "THEN HE APPROACHED IT AND STANDING ON TIPTOE WITH HIS NECK CRANED HE LOOKED INTO THE ROOM",
+   "hyp": "Then he approached it and standing on tiptoe with his net crane he looked into the room.",
+   "wer": 0.1176,
+   "latency_ms": 396.8,
+   "dur_s": 5.13
+  },
+  {
+   "id": "4970-29093-0003",
+   "speaker": 4970,
+   "ref": "THE MODEST FELLOW WOULD HAVE LIKED FAME THRUST UPON HIM FOR SOME WORTHY ACHIEVEMENT IT MIGHT BE FOR A BOOK OR FOR THE SKILLFUL MANAGEMENT OF SOME GREAT NEWSPAPER OR FOR SOME DARING EXPEDITION LIKE THAT OF LIEUTENANT STRAIN OR DOCTOR KANE",
+   "hyp": "The modus fellow would have liked fame thrust upon him for some worthy achievement. It might be for a book, or for the skillful management of some great newspaper, or for some daring expedition like that of Lieutenant Strain or Dr. Kane.",
+   "wer": 0.0238,
+   "latency_ms": 673.9,
+   "dur_s": 15.36
+  },
+  {
+   "id": "4970-29093-0004",
+   "speaker": 4970,
+   "ref": "HE WAS UNABLE TO DECIDE EXACTLY WHAT IT SHOULD BE",
+   "hyp": "He was unable to decide exactly what it should be.",
+   "wer": 0.0,
+   "latency_ms": 330.7,
+   "dur_s": 3.75
+  },
+  {
+   "id": "4970-29093-0005",
+   "speaker": 4970,
+   "ref": "SOMETIMES HE THOUGHT HE WOULD LIKE TO STAND IN A CONSPICUOUS PULPIT AND HUMBLY PREACH THE GOSPEL OF REPENTANCE AND IT EVEN CROSSED HIS MIND THAT IT WOULD BE NOBLE TO GIVE HIMSELF TO A MISSIONARY LIFE TO SOME BENIGHTED REGION WHERE THE DATE PALM GROWS AND THE NIGHTINGALE'S VOICE IS IN TUNE AND THE BUL BUL SINGS ON THE OFF NIGHTS",
+   "hyp": "Sometimes, he thought he would like to stand in a conspicious pulpit and humbly preach the gospel of repentance. And it even crossed his mind that it would be noble to give himself to a missionary life to some benign region where the date palm grows and the night and gale's voice is in tune and the bull bull sings on the off-nights.",
+   "wer": 0.1111,
+   "latency_ms": 908.7,
+   "dur_s": 22.16
+  },
+  {
+   "id": "4970-29093-0006",
+   "speaker": 4970,
+   "ref": "LAW SEEMED TO HIM WELL ENOUGH AS A SCIENCE BUT HE NEVER COULD DISCOVER A PRACTICAL CASE WHERE IT APPEARED TO HIM WORTH WHILE TO GO TO LAW AND ALL THE CLIENTS WHO STOPPED WITH THIS NEW CLERK IN THE ANTE ROOM OF THE LAW OFFICE WHERE HE WAS WRITING PHILIP INVARIABLY ADVISED TO SETTLE NO MATTER HOW BUT SETTLE GREATLY TO THE DISGUST OF HIS EMPLOYER WHO KNEW THAT JUSTICE BETWEEN MAN AND MAN COULD ONLY BE ATTAINED BY THE RECOGNIZED PROCESSES WITH THE ATTENDANT FEES",
+   "hyp": "Law seemed to him well enough as a science, but he never could discover a practical case where it appeared to him worthwhile to go to law. And all the clients who stopped with this new clerk in the anti-room of the law office where he was writing, Philip invariably advised to settle. No matter how, but settle. Greatly to the disgust of his employer, who knew that justice between man and man could only be attained by the recognized processes with the attendant fees.",
+   "wer": 0.0345,
+   "latency_ms": 1384.3,
+   "dur_s": 29.6
+  },
+  {
+   "id": "4970-29093-0007",
+   "speaker": 4970,
+   "ref": "IT IS SUCH A NOBLE AMBITION THAT IT IS A PITY IT HAS USUALLY SUCH A SHALLOW FOUNDATION",
+   "hyp": "It is such a noble ambition that it is a pity it has usually such a shallow foundation.",
+   "wer": 0.0,
+   "latency_ms": 400.5,
+   "dur_s": 7.0
+  },
+  {
+   "id": "61-70968-0048",
+   "speaker": 61,
+   "ref": "AND HENRY MIGHT RETURN TO ENGLAND AT ANY MOMENT",
+   "hyp": "and Henry might return to England at any moment.",
+   "wer": 0.0,
+   "latency_ms": 381.4,
+   "dur_s": 3.02
+  },
+  {
+   "id": "61-70968-0049",
+   "speaker": 61,
+   "ref": "HAVE YOUR WILL CHILD IF THE BOY ALSO WILLS IT MONTFICHET ANSWERED FEELING TOO ILL TO OPPOSE ANYTHING VERY STRONGLY JUST THEN",
+   "hyp": "Have your will, child, if the boy also wields it, Montfysche answered, feeling too ill to who oppose anything very strongly just then.",
+   "wer": 0.1364,
+   "latency_ms": 742.6,
+   "dur_s": 8.25
+  },
+  {
+   "id": "61-70968-0050",
+   "speaker": 61,
+   "ref": "HE MADE AN EFFORT TO HIDE HIS CONDITION FROM THEM ALL AND ROBIN FELT HIS FINGERS TIGHTEN UPON HIS ARM",
+   "hyp": "He made an effort to hide his condition from them all, and Robin felt his fingers tighten upon his arm.",
+   "wer": 0.0,
+   "latency_ms": 428.4,
+   "dur_s": 5.58
+  },
+  {
+   "id": "61-70968-0051",
+   "speaker": 61,
+   "ref": "BEG ME A ROOM OF THE SHERIFF CHILD QUICKLY",
+   "hyp": "beg me a room of the sheriff, child, quickly.",
+   "wer": 0.0,
+   "latency_ms": 331.0,
+   "dur_s": 3.13
+  },
+  {
+   "id": "61-70968-0052",
+   "speaker": 61,
+   "ref": "BUT WHO IS THIS FELLOW PLUCKING AT YOUR SLEEVE",
+   "hyp": "But who is this fellow plucking at your Steve?",
+   "wer": 0.1111,
+   "latency_ms": 322.4,
+   "dur_s": 2.65
+  },
+  {
+   "id": "237-134500-0013",
+   "speaker": 237,
+   "ref": "MARIE PICKED CHERRIES AND SANG SOFTLY TO HERSELF STRIPPING ONE GLITTERING BRANCH AFTER ANOTHER SHIVERING WHEN SHE CAUGHT A SHOWER OF RAINDROPS ON HER NECK AND HAIR",
+   "hyp": "Marie picked cherries and sang softly to herself, stripping one glittering branch after another, shivering when she caught a shower of raindrops on her neck and hair.",
+   "wer": 0.0,
+   "latency_ms": 541.9,
+   "dur_s": 10.56
+  },
+  {
+   "id": "237-134500-0014",
+   "speaker": 237,
+   "ref": "AND EMIL MOWED HIS WAY SLOWLY DOWN TOWARD THE CHERRY TREES",
+   "hyp": "and Emil mode his way slowly down toward the gerry trees.",
+   "wer": 0.1818,
+   "latency_ms": 340.8,
+   "dur_s": 4.25
+  },
+  {
+   "id": "237-134500-0015",
+   "speaker": 237,
+   "ref": "THAT SUMMER THE RAINS HAD BEEN SO MANY AND OPPORTUNE THAT IT WAS ALMOST MORE THAN SHABATA AND HIS MAN COULD DO TO KEEP UP WITH THE CORN THE ORCHARD WAS A NEGLECTED WILDERNESS",
+   "hyp": "That summer the reins had been so many, and opportune, that it was almost more than Shabbata, and his man could do to keep up with the corn. The orchard was an neglected wilderness.",
+   "wer": 0.0882,
+   "latency_ms": 612.1,
+   "dur_s": 10.81
+  },
+  {
+   "id": "237-134500-0016",
+   "speaker": 237,
+   "ref": "I DON'T KNOW ALL OF THEM BUT I KNOW LINDENS ARE",
+   "hyp": "I don't know all of them, but I know the Indians are.",
+   "wer": 0.1667,
+   "latency_ms": 358.2,
+   "dur_s": 3.16
+  },
+  {
+   "id": "237-134500-0017",
+   "speaker": 237,
+   "ref": "IF I FEEL THAT WAY I FEEL THAT WAY",
+   "hyp": "If I feel that way, I feel that way.",
+   "wer": 0.0,
+   "latency_ms": 330.4,
+   "dur_s": 2.18
+  },
+  {
+   "id": "5683-32865-0006",
+   "speaker": 5683,
+   "ref": "AT DINNER LAKE WAS EASY AND AMUSING",
+   "hyp": "At dinner, Lake was easy and amusing.",
+   "wer": 0.0,
+   "latency_ms": 312.7,
+   "dur_s": 3.35
+  },
+  {
+   "id": "5683-32865-0007",
+   "speaker": 5683,
+   "ref": "I'M GLAD YOU LIKE IT SAYS WYLDER CHUCKLING BENIGNANTLY ON IT OVER HIS SHOULDER",
+   "hyp": "I'm glad you'd like it, says Wilder, chuckling, benignantly on it over his shoulder.",
+   "wer": 0.1333,
+   "latency_ms": 460.8,
+   "dur_s": 6.07
+  },
+  {
+   "id": "5683-32865-0008",
+   "speaker": 5683,
+   "ref": "I BELIEVE I HAVE A LITTLE TASTE THAT WAY THOSE ARE ALL REAL YOU KNOW THOSE JEWELS",
+   "hyp": "I believe I have a little taste that way. Those are all real, you know, those jewels.",
+   "wer": 0.0,
+   "latency_ms": 421.7,
+   "dur_s": 6.12
+  },
+  {
+   "id": "5683-32865-0009",
+   "speaker": 5683,
+   "ref": "AND HE PLACED IT IN THAT GENTLEMAN'S FINGERS WHO NOW TOOK HIS TURN AT THE LAMP AND CONTEMPLATED THE LITTLE PARALLELOGRAM WITH A GLEAM OF SLY AMUSEMENT",
+   "hyp": "And he placed it in that gentleman's fingers, who now took his turn at the lamp, and contemplated the little parallelogram with a gleam of sly amusement.",
+   "wer": 0.0,
+   "latency_ms": 532.3,
+   "dur_s": 9.89
+  },
+  {
+   "id": "5683-32865-0010",
+   "speaker": 5683,
+   "ref": "I WAS THINKING IT'S VERY LIKE THE ACE OF HEARTS ANSWERED THE CAPTAIN SOFTLY SMILING ON",
+   "hyp": "I was thinking it's very like the Ace of Hearts. Answered the captain softly, smiling on.",
+   "wer": 0.0,
+   "latency_ms": 422.3,
+   "dur_s": 6.33
+  }
+ ],
+ "S2": [
+  {
+   "id": "7902-96591-0000",
+   "speaker": 7902,
+   "ref": "I AM FROM THE CUTTER LYING OFF THE COAST",
+   "hyp": "I'm from the cutter lying off the coast.",
+   "wer": 0.0,
+   "latency_ms": 353.0,
+   "dur_s": 2.1
+  },
+  {
+   "id": "7902-96591-0001",
+   "speaker": 7902,
+   "ref": "DON'T CRY HE SAID I WAS OBLIGED TO COME",
+   "hyp": "Don't cry, he said. I was obliged to come.",
+   "wer": 0.0,
+   "latency_ms": 342.0,
+   "dur_s": 2.51
+  },
+  {
+   "id": "7902-96591-0002",
+   "speaker": 7902,
+   "ref": "AND AND YOU HAVE NOT FOUND OUT ANYTHING CAME IN QUICK FRIGHTENED TONES",
+   "hyp": "And, and you have not found out anything, came in quick freight and tones.",
+   "wer": 0.1538,
+   "latency_ms": 380.9,
+   "dur_s": 5.02
+  },
+  {
+   "id": "7902-96591-0003",
+   "speaker": 7902,
+   "ref": "I WISH YOU WOULD BELIEVE ME THAT I AM IN AS GREAT TROUBLE ABOUT IT AS YOU ARE",
+   "hyp": "I wish you would believe me that I am in as great trouble about it as you are.",
+   "wer": 0.0,
+   "latency_ms": 390.0,
+   "dur_s": 3.83
+  },
+  {
+   "id": "7902-96591-0004",
+   "speaker": 7902,
+   "ref": "THAT MY FATHER SIR RISDON GRAEME HAS SMUGGLED GOODS HERE",
+   "hyp": "that my father, Sir Risen Graham, has smuggled goods here.",
+   "wer": 0.2,
+   "latency_ms": 509.9,
+   "dur_s": 3.6
+  },
+  {
+   "id": "4198-12259-0041",
+   "speaker": 4198,
+   "ref": "I SHOULD SAY MASTER PAST",
+   "hyp": "I should say, Master Path.",
+   "wer": 0.2,
+   "latency_ms": 294.9,
+   "dur_s": 3.04
+  },
+  {
+   "id": "4198-12259-0042",
+   "speaker": 4198,
+   "ref": "O THE DRINKERS THOSE THAT ARE A DRY O POOR THIRSTY SOULS",
+   "hyp": "All the drinkers, those that are dry, all 4-30 souls.",
+   "wer": 0.4167,
+   "latency_ms": 373.3,
+   "dur_s": 5.5
+  },
+  {
+   "id": "4198-12259-0043",
+   "speaker": 4198,
+   "ref": "CLEAR OFF NEAT SUPERNACULUM",
+   "hyp": "Clear off. Meet SuperNaculum.",
+   "wer": 0.25,
+   "latency_ms": 328.5,
+   "dur_s": 3.51
+  },
+  {
+   "id": "4198-61336-0000",
+   "speaker": 4198,
+   "ref": "IT IS SIGNIFICANT TO NOTE IN THIS CONNECTION THAT THE NEW KING WAS AN UNSWERVING ADHERENT OF THE CULT OF ASHUR BY THE ADHERENTS OF WHICH HE WAS PROBABLY STRONGLY SUPPORTED",
+   "hyp": "It is significant to note in this connection that the new king was an unswerving adherent of the cult of Asher by the adherents of which he was probably strongly supported.",
+   "wer": 0.0323,
+   "latency_ms": 557.9,
+   "dur_s": 13.77
+  },
+  {
+   "id": "4198-61336-0001",
+   "speaker": 4198,
+   "ref": "AT THE BEGINNING OF HIS REIGN THERE WAS MUCH SOCIAL DISCONTENT AND SUFFERING",
+   "hyp": "At the beginning of his reign, there was much social discontent and suffering.",
+   "wer": 0.0,
+   "latency_ms": 372.1,
+   "dur_s": 5.88
+  },
+  {
+   "id": "5764-299665-0083",
+   "speaker": 5764,
+   "ref": "FOR THOUSANDS OF YEARS MEN AND WOMEN HAVE BEEN TRYING TO REFORM THE WORLD",
+   "hyp": "For thousands of years, men and women have been crying to reform the world.",
+   "wer": 0.0714,
+   "latency_ms": 384.8,
+   "dur_s": 5.35
+  },
+  {
+   "id": "5764-299665-0084",
+   "speaker": 5764,
+   "ref": "WHY HAVE THE REFORMERS FAILED",
+   "hyp": "Why have the Reformers stayed?",
+   "wer": 0.2,
+   "latency_ms": 295.5,
+   "dur_s": 2.61
+  },
+  {
+   "id": "5764-299665-0085",
+   "speaker": 5764,
+   "ref": "THEY DEPEND ON THE LORD ON LUCK AND CHARITY",
+   "hyp": "They depend on the Lord, on luck and charity.",
+   "wer": 0.0,
+   "latency_ms": 336.3,
+   "dur_s": 4.83
+  },
+  {
+   "id": "5764-299665-0086",
+   "speaker": 5764,
+   "ref": "THEY LIVE BY FRAUD AND VIOLENCE AND BEQUEATH THEIR VICES TO THEIR CHILDREN",
+   "hyp": "They leave by fraud and violence and bequeath their vices to their children.",
+   "wer": 0.0769,
+   "latency_ms": 379.7,
+   "dur_s": 6.13
+  },
+  {
+   "id": "5764-299665-0087",
+   "speaker": 5764,
+   "ref": "FAILURE SEEMS TO BE THE TRADEMARK OF NATURE WHY",
+   "hyp": "Failure seems to be the trademark of nature. Why?",
+   "wer": 0.0,
+   "latency_ms": 343.8,
+   "dur_s": 4.46
+  },
+  {
+   "id": "3331-159605-0037",
+   "speaker": 3331,
+   "ref": "NOW DON'T BE AFFECTED POLLY BUT JUST TELL ME LIKE A DEAR HAS N'T HE PROPOSED",
+   "hyp": "Now don't be affected, Polly, but just tell me like a deer has not eaten for post.",
+   "wer": 0.2353,
+   "latency_ms": 435.6,
+   "dur_s": 5.68
+  },
+  {
+   "id": "3331-159605-0038",
+   "speaker": 3331,
+   "ref": "DON'T YOU THINK HE MEANS TO",
+   "hyp": "Don't you think he means to?",
+   "wer": 0.0,
+   "latency_ms": 308.9,
+   "dur_s": 2.06
+  },
+  {
+   "id": "3331-159605-0039",
+   "speaker": 3331,
+   "ref": "TRULY TRULY FAN",
+   "hyp": "Julie, Julie Fan",
+   "wer": 0.6667,
+   "latency_ms": 291.7,
+   "dur_s": 2.88
+  },
+  {
+   "id": "3331-159605-0040",
+   "speaker": 3331,
+   "ref": "I DON'T MEAN TO BE PRYING BUT I REALLY THOUGHT HE DID",
+   "hyp": "I don't mean to be prying, but I really thought he did.",
+   "wer": 0.0,
+   "latency_ms": 380.3,
+   "dur_s": 3.66
+  },
+  {
+   "id": "3331-159605-0041",
+   "speaker": 3331,
+   "ref": "WELL I ALWAYS MEANT TO TRY IT IF I GOT A CHANCE AND I HAVE",
+   "hyp": "Well, I always meant to try it if I got a chance, and I have.",
+   "wer": 0.0,
+   "latency_ms": 456.3,
+   "dur_s": 5.25
+  },
+  {
+   "id": "3528-168669-0099",
+   "speaker": 3528,
+   "ref": "YOU WILL CLOSE THE COFFIN THE SISTERS WILL CARRY IT TO THE CHAPEL",
+   "hyp": "You will close the coffin. The sisters will carry it to the chapel.",
+   "wer": 0.0,
+   "latency_ms": 364.9,
+   "dur_s": 3.29
+  },
+  {
+   "id": "3528-168669-0100",
+   "speaker": 3528,
+   "ref": "THE OFFICE FOR THE DEAD WILL THEN BE SAID",
+   "hyp": "The office for the dead will then be set.",
+   "wer": 0.1111,
+   "latency_ms": 325.0,
+   "dur_s": 2.27
+  },
+  {
+   "id": "3528-168669-0101",
+   "speaker": 3528,
+   "ref": "BUT SHE WILL HEAR SHE WILL NOT LISTEN",
+   "hyp": "But she will hear. She will not listen.",
+   "wer": 0.0,
+   "latency_ms": 320.3,
+   "dur_s": 3.04
+  },
+  {
+   "id": "3528-168669-0102",
+   "speaker": 3528,
+   "ref": "BESIDES WHAT THE CLOISTER KNOWS THE WORLD LEARNS NOT",
+   "hyp": "Besides, what the Cluster knows the world learns not.",
+   "wer": 0.1111,
+   "latency_ms": 335.4,
+   "dur_s": 3.52
+  },
+  {
+   "id": "3528-168669-0103",
+   "speaker": 3528,
+   "ref": "A PAUSE ENSUED",
+   "hyp": "A pause ensued.",
+   "wer": 0.0,
+   "latency_ms": 285.8,
+   "dur_s": 1.57
+  },
+  {
+   "id": "6938-70848-0004",
+   "speaker": 6938,
+   "ref": "HAVEN'T I GOT SOMETHING TO REMEMBER THEM BY THE DEVILS",
+   "hyp": "Haven't I got something to remember them by the devils?",
+   "wer": 0.0,
+   "latency_ms": 411.3,
+   "dur_s": 3.65
+  },
+  {
+   "id": "6938-70848-0005",
+   "speaker": 6938,
+   "ref": "WHO ARE YOU TO DESTROY THE LEGAL GOVERNMENT WHO IS LENIN A GERMAN",
+   "hyp": "Who are you to destroy the legal government with learning a German?",
+   "wer": 0.2308,
+   "latency_ms": 347.2,
+   "dur_s": 4.37
+  },
+  {
+   "id": "6938-70848-0006",
+   "speaker": 6938,
+   "ref": "WHO ARE YOU A COUNTER REVOLUTIONIST A PROVOCATOR THEY BELLOWED AT HIM",
+   "hyp": "Who are you, a counter-revolutionist, a provocator? They beloved at him.",
+   "wer": 0.0833,
+   "latency_ms": 414.3,
+   "dur_s": 5.53
+  },
+  {
+   "id": "6938-70848-0007",
+   "speaker": 6938,
+   "ref": "YOU CALL YOURSELVES THE PEOPLE OF RUSSIA BUT YOU'RE NOT THE PEOPLE OF RUSSIA",
+   "hyp": "You call yourself the people of Russia, but you are not the people of Russia.",
+   "wer": 0.0667,
+   "latency_ms": 375.6,
+   "dur_s": 4.77
+  },
+  {
+   "id": "6938-70848-0008",
+   "speaker": 6938,
+   "ref": "THE PEASANTS ARE THE PEOPLE OF RUSSIA WAIT UNTIL THE PEASANTS",
+   "hyp": "The peasants are the people of Russia, wait until the peasants...",
+   "wer": 0.0909,
+   "latency_ms": 360.1,
+   "dur_s": 3.44
+  },
+  {
+   "id": "367-293981-0019",
+   "speaker": 367,
+   "ref": "HE SAW HIM RISING AND FALLING IN THE AIR WITH SUCH GRACE AND NIMBLENESS THAT HAD HIS RAGE ALLOWED HIM IT IS MY BELIEF HE WOULD HAVE LAUGHED",
+   "hyp": "He saw him rising and falling in the air with such grace and nimbleness that had his rage allowed him, and is my belief he would have left.",
+   "wer": 0.0714,
+   "latency_ms": 540.7,
+   "dur_s": 7.09
+  },
+  {
+   "id": "367-293981-0020",
+   "speaker": 367,
+   "ref": "SANCHO TOOK IT AND AS HE WAS RAISING IT TO HIS MOUTH HE WAS STOPPED BY THE CRIES OF HIS MASTER EXCLAIMING SANCHO MY SON DRINK NOT WATER DRINK IT NOT MY SON FOR IT WILL KILL THEE SEE HERE I HAVE THE BLESSED BALSAM AND HE HELD UP THE FLASK OF LIQUOR AND WITH DRINKING TWO DROPS OF IT THOU WILT CERTAINLY BE RESTORED",
+   "hyp": "Sancho took it and as he was raising into his mouth he was stopped by the cries of his master exclaiming, Sancho, my son, drink not water, drink not my son for it will kill the sea. Here I have the blessed bosom and he held up the flask of liquor. And with drinking two drops of it that will certainly be restored.",
+   "wer": 0.1231,
+   "latency_ms": 930.6,
+   "dur_s": 17.29
+  },
+  {
+   "id": "367-130732-0000",
+   "speaker": 367,
+   "ref": "LOBSTERS AND LOBSTERS",
+   "hyp": "Lobsters and Lobsters",
+   "wer": 0.0,
+   "latency_ms": 280.2,
+   "dur_s": 2.37
+  },
+  {
+   "id": "367-130732-0001",
+   "speaker": 367,
+   "ref": "WHEN IS A LOBSTER NOT A LOBSTER WHEN IT IS A CRAYFISH",
+   "hyp": "When is a lobster not a lobster? When it is a crayfish?",
+   "wer": 0.0,
+   "latency_ms": 383.9,
+   "dur_s": 4.38
+  },
+  {
+   "id": "367-130732-0002",
+   "speaker": 367,
+   "ref": "THIS QUESTION AND ANSWER MIGHT WELL GO INTO THE PRIMER OF INFORMATION FOR THOSE WHO COME TO SAN FRANCISCO FROM THE EAST FOR WHAT IS CALLED A LOBSTER IN SAN FRANCISCO IS NOT A LOBSTER AT ALL BUT A CRAYFISH",
+   "hyp": "This question and answer might well go into the primary of information for those who come to San Francisco from the east. For what is called a lobster in San Francisco is not a lobster at all, but a crayfish.",
+   "wer": 0.025,
+   "latency_ms": 612.4,
+   "dur_s": 11.28
+  },
+  {
+   "id": "3764-168670-0042",
+   "speaker": 3764,
+   "ref": "JEAN VALJEAN HAD BEEN IN WORSE STRAITS THAN THIS",
+   "hyp": "Jean-Val Jean had been in worse straits than this.",
+   "wer": 0.2222,
+   "latency_ms": 363.6,
+   "dur_s": 3.56
+  },
+  {
+   "id": "3764-168670-0043",
+   "speaker": 3764,
+   "ref": "ANY MAN WHO HAS BEEN A PRISONER UNDERSTANDS HOW TO CONTRACT HIMSELF TO FIT THE DIAMETER OF THE ESCAPE",
+   "hyp": "Any man who has been a prisoner understands how to contract himself to fit the diameter of the escape.",
+   "wer": 0.0,
+   "latency_ms": 402.9,
+   "dur_s": 7.17
+  },
+  {
+   "id": "3764-168670-0044",
+   "speaker": 3764,
+   "ref": "WHAT DOES NOT A MAN UNDERGO FOR THE SAKE OF A CURE",
+   "hyp": "What does not a man undergo for the sake of a cure?",
+   "wer": 0.0,
+   "latency_ms": 354.0,
+   "dur_s": 3.26
+  },
+  {
+   "id": "3764-168670-0045",
+   "speaker": 3764,
+   "ref": "TO HAVE HIMSELF NAILED UP IN A CASE AND CARRIED OFF LIKE A BALE OF GOODS TO LIVE FOR A LONG TIME IN A BOX TO FIND AIR WHERE THERE IS NONE TO ECONOMIZE HIS BREATH FOR HOURS TO KNOW HOW TO STIFLE WITHOUT DYING THIS WAS ONE OF JEAN VALJEAN'S GLOOMY TALENTS",
+   "hyp": "To have himself nailed up in a case and carried off like a barrel of goods to live for a long time in a box, to find air where there is none, to economise his breath for hours, to know how to stifle without dying. This was one of Jean Valjean's gloomy talents.",
+   "wer": 0.0185,
+   "latency_ms": 800.6,
+   "dur_s": 16.27
+  },
+  {
+   "id": "3764-168670-0046",
+   "speaker": 3764,
+   "ref": "YOU SURELY MUST HAVE A GIMLET YOU WILL MAKE A FEW HOLES HERE AND THERE AROUND MY MOUTH AND YOU WILL NAIL THE TOP PLANK ON LOOSELY GOOD AND WHAT IF YOU SHOULD HAPPEN TO COUGH OR TO SNEEZE",
+   "hyp": "You surely must have a gimlet. You will make a few holes here and there around my mouth, and you will nail the top plank on loosely. Good, and what if you should happen to cough or to sneeze?",
+   "wer": 0.0,
+   "latency_ms": 636.3,
+   "dur_s": 12.88
+  },
+  {
+   "id": "1688-142285-0004",
+   "speaker": 1688,
+   "ref": "HIS STATEMENT OF HAVING BEEN A SHOP BOY WAS THE THING I LIKED BEST OF ALL",
+   "hyp": "His statement of having been a shopboy was the thing I like best of all.",
+   "wer": 0.1875,
+   "latency_ms": 380.0,
+   "dur_s": 4.47
+  },
+  {
+   "id": "1688-142285-0005",
+   "speaker": 1688,
+   "ref": "YOU WHO WERE ALWAYS ACCUSING PEOPLE OF BEING SHOPPY AT HELSTONE",
+   "hyp": "You who were always accusing people of being choppy at Helstyn.",
+   "wer": 0.1818,
+   "latency_ms": 361.0,
+   "dur_s": 4.3
+  },
+  {
+   "id": "1688-142285-0006",
+   "speaker": 1688,
+   "ref": "I DON'T THINK MISTER HALE YOU HAVE DONE QUITE RIGHT IN INTRODUCING SUCH A PERSON TO US WITHOUT TELLING US WHAT HE HAD BEEN",
+   "hyp": "I don't think Mr. Hale, you have done quite right in introducing such a person to us without telling us what he had been.",
+   "wer": 0.0,
+   "latency_ms": 484.1,
+   "dur_s": 8.14
+  },
+  {
+   "id": "1688-142285-0007",
+   "speaker": 1688,
+   "ref": "I REALLY WAS VERY MUCH AFRAID OF SHOWING HIM HOW MUCH SHOCKED I WAS AT SOME PARTS OF WHAT HE SAID",
+   "hyp": "I really was very much afraid of showing him how much shocked I was at some parts of what he said.",
+   "wer": 0.0,
+   "latency_ms": 432.8,
+   "dur_s": 7.06
+  },
+  {
+   "id": "1688-142285-0008",
+   "speaker": 1688,
+   "ref": "HIS FATHER DYING IN MISERABLE CIRCUMSTANCES",
+   "hyp": "His father dying in miserable circumstances.",
+   "wer": 0.0,
+   "latency_ms": 300.8,
+   "dur_s": 4.13
+  },
+  {
+   "id": "1998-29454-0039",
+   "speaker": 1998,
+   "ref": "SO YOU SHALL SAID MISTER BEALE A REG'LER WASH ALL OVER THIS VERY NIGHT I ALWAYS LIKE A WASH MESELF",
+   "hyp": "So you shall, said Mr. Beer, a regular wash all over this very night. I always like to wash myself.",
+   "wer": 0.2381,
+   "latency_ms": 467.0,
+   "dur_s": 6.59
+  },
+  {
+   "id": "1998-29454-0040",
+   "speaker": 1998,
+   "ref": "SOME BLOKES THINK IT PAYS TO BE DIRTY BUT IT DON'T",
+   "hyp": "Some those think it pays to be dirty, but it don't.",
+   "wer": 0.0833,
+   "latency_ms": 357.5,
+   "dur_s": 3.77
+  },
+  {
+   "id": "1998-29454-0041",
+   "speaker": 1998,
+   "ref": "IF YOU'RE CLEAN THEY SAY HONEST POVERTY AN IF YOU'RE DIRTY THEY SAY SERVE YOU RIGHT",
+   "hyp": "If you're clean they say, on this poverty, and if you're dirty they say, serve you right.",
+   "wer": 0.1667,
+   "latency_ms": 464.7,
+   "dur_s": 6.19
+  },
+  {
+   "id": "1998-29454-0042",
+   "speaker": 1998,
+   "ref": "YOU ARE GOOD SAID DICKIE I DO LIKE YOU",
+   "hyp": "You are good, Setic here. I do like you.",
+   "wer": 0.2222,
+   "latency_ms": 347.4,
+   "dur_s": 3.31
+  },
+  {
+   "id": "1998-29454-0043",
+   "speaker": 1998,
+   "ref": "I KNOW YOU WILL SAID DICKIE WITH ENTHUSIASM I KNOW OW GOOD YOU ARE",
+   "hyp": "I know you will, Sarticchi, was in thro' the asm. I know how good you are.",
+   "wer": 0.5,
+   "latency_ms": 471.3,
+   "dur_s": 5.15
+  },
+  {
+   "id": "6432-63722-0009",
+   "speaker": 6432,
+   "ref": "PERHAPS NOT ADMITTED COLONEL ASHLEY",
+   "hyp": "Perhaps not admitted colonel Ashley.",
+   "wer": 0.0,
+   "latency_ms": 299.7,
+   "dur_s": 2.67
+  },
+  {
+   "id": "6432-63722-0010",
+   "speaker": 6432,
+   "ref": "WE'VE GOT OUR MAN AND THAT'S ALL WE WANT",
+   "hyp": "We've got our man and that's all we want.",
+   "wer": 0.0,
+   "latency_ms": 351.6,
+   "dur_s": 2.84
+  },
+  {
+   "id": "6432-63722-0011",
+   "speaker": 6432,
+   "ref": "YOU'RE ON THE DARCY CASE THEY TELL ME IN A WAY YES",
+   "hyp": "You're on the Darcy case, they tell me. In a way, yes.",
+   "wer": 0.0,
+   "latency_ms": 416.2,
+   "dur_s": 3.83
+  },
+  {
+   "id": "6432-63722-0012",
+   "speaker": 6432,
+   "ref": "I'M WORKING IN THE INTERESTS OF THE YOUNG MAN",
+   "hyp": "I'm working in the interest of the young man.",
+   "wer": 0.1,
+   "latency_ms": 350.5,
+   "dur_s": 2.54
+  },
+  {
+   "id": "6432-63722-0013",
+   "speaker": 6432,
+   "ref": "IT'S JUST ONE OF THEM COINCIDENCES LIKE",
+   "hyp": "It's just one of them coincidence as like.",
+   "wer": 0.25,
+   "latency_ms": 322.7,
+   "dur_s": 2.88
+  },
+  {
+   "id": "2414-159411-0031",
+   "speaker": 2414,
+   "ref": "THEN SHUT AND BOLT IT SAID THE JACKAL",
+   "hyp": "Then shut and bolt it, set the jacko.",
+   "wer": 0.25,
+   "latency_ms": 326.2,
+   "dur_s": 3.3
+  },
+  {
+   "id": "2414-159411-0032",
+   "speaker": 2414,
+   "ref": "WHEN THE BRAHMAN HAD DONE THIS THE JACKAL SAID OH YOU WICKED AND UNGRATEFUL TIGER",
+   "hyp": "When the Brahmin had turned this, the jackal said, oh you wicked and ungrateful tyver.",
+   "wer": 0.2,
+   "latency_ms": 452.9,
+   "dur_s": 7.72
+  },
+  {
+   "id": "2414-159411-0033",
+   "speaker": 2414,
+   "ref": "WHEN THE GOOD BRAHMAN OPENED YOUR CAGE DOOR IS TO EAT HIM THE ONLY RETURN YOU WOULD MAKE",
+   "hyp": "When a good bram in open your case door is to eat him the only return he would make.",
+   "wer": 0.3333,
+   "latency_ms": 426.8,
+   "dur_s": 6.66
+  },
+  {
+   "id": "2414-159411-0034",
+   "speaker": 2414,
+   "ref": "PROCEED ON YOUR JOURNEY FRIEND BRAHMAN",
+   "hyp": "Proceed on your journey, friend ramen.",
+   "wer": 0.1667,
+   "latency_ms": 326.3,
+   "dur_s": 3.02
+  },
+  {
+   "id": "2414-159411-0035",
+   "speaker": 2414,
+   "ref": "YOUR ROAD LIES THAT WAY AND MINE THIS",
+   "hyp": "You roll lies that way in mind this.",
+   "wer": 0.5,
+   "latency_ms": 328.2,
+   "dur_s": 3.69
+  }
+ ],
+ "S4": [
+  {
+   "id": "Samantha_0",
+   "speaker": "Samantha",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 1508.9,
+   "dur_s": 1.31
+  },
+  {
+   "id": "Samantha_1",
+   "speaker": "Samantha",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good, thank you.",
+   "wer": 0.0,
+   "latency_ms": 1664.4,
+   "dur_s": 1.44
+  },
+  {
+   "id": "Samantha_2",
+   "speaker": "Samantha",
+   "ref": "Love you.",
+   "hyp": "Love you.",
+   "wer": 0.0,
+   "latency_ms": 1652.5,
+   "dur_s": 0.55
+  },
+  {
+   "id": "Samantha_3",
+   "speaker": "Samantha",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 1785.8,
+   "dur_s": 1.04
+  },
+  {
+   "id": "Samantha_4",
+   "speaker": "Samantha",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 1777.9,
+   "dur_s": 0.85
+  },
+  {
+   "id": "Samantha_5",
+   "speaker": "Samantha",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Manya.",
+   "wer": 0.0,
+   "latency_ms": 1597.2,
+   "dur_s": 1.05
+  },
+  {
+   "id": "Samantha_6",
+   "speaker": "Samantha",
+   "ref": "Can you help me please?",
+   "hyp": "Can you help me please?",
+   "wer": 0.0,
+   "latency_ms": 1670.8,
+   "dur_s": 1.31
+  },
+  {
+   "id": "Samantha_7",
+   "speaker": "Samantha",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 1683.0,
+   "dur_s": 1.01
+  },
+  {
+   "id": "Samantha_8",
+   "speaker": "Samantha",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 1664.3,
+   "dur_s": 0.93
+  },
+  {
+   "id": "Samantha_9",
+   "speaker": "Samantha",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 1594.1,
+   "dur_s": 1.1
+  },
+  {
+   "id": "Samantha_10",
+   "speaker": "Samantha",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 1994.3,
+   "dur_s": 2.28
+  },
+  {
+   "id": "Samantha_11",
+   "speaker": "Samantha",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "Can you repeat that more slowly?",
+   "wer": 0.0,
+   "latency_ms": 1965.7,
+   "dur_s": 1.66
+  },
+  {
+   "id": "Samantha_12",
+   "speaker": "Samantha",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 1955.5,
+   "dur_s": 2.15
+  },
+  {
+   "id": "Samantha_13",
+   "speaker": "Samantha",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 1772.9,
+   "dur_s": 1.48
+  },
+  {
+   "id": "Samantha_14",
+   "speaker": "Samantha",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and my chest hurts.",
+   "wer": 0.0,
+   "latency_ms": 1706.9,
+   "dur_s": 1.88
+  },
+  {
+   "id": "Samantha_15",
+   "speaker": "Samantha",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 1384.4,
+   "dur_s": 0.83
+  },
+  {
+   "id": "Samantha_16",
+   "speaker": "Samantha",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 1507.9,
+   "dur_s": 1.09
+  },
+  {
+   "id": "Samantha_17",
+   "speaker": "Samantha",
+   "ref": "Is this seat free?",
+   "hyp": "Is this seed free?",
+   "wer": 0.25,
+   "latency_ms": 1468.2,
+   "dur_s": 0.98
+  },
+  {
+   "id": "Samantha_18",
+   "speaker": "Samantha",
+   "ref": "Call an ambulance now.",
+   "hyp": "call an ambulance now.",
+   "wer": 0.0,
+   "latency_ms": 1534.7,
+   "dur_s": 1.38
+  },
+  {
+   "id": "Samantha_19",
+   "speaker": "Samantha",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 1624.8,
+   "dur_s": 1.35
+  },
+  {
+   "id": "Daniel_0",
+   "speaker": "Daniel",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 1827.8,
+   "dur_s": 1.51
+  },
+  {
+   "id": "Daniel_1",
+   "speaker": "Daniel",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good. Thank you.",
+   "wer": 0.0,
+   "latency_ms": 1664.9,
+   "dur_s": 1.54
+  },
+  {
+   "id": "Daniel_2",
+   "speaker": "Daniel",
+   "ref": "Love you.",
+   "hyp": "Love you!",
+   "wer": 0.0,
+   "latency_ms": 1694.0,
+   "dur_s": 0.66
+  },
+  {
+   "id": "Daniel_3",
+   "speaker": "Daniel",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 1987.8,
+   "dur_s": 1.15
+  },
+  {
+   "id": "Daniel_4",
+   "speaker": "Daniel",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 1814.5,
+   "dur_s": 1.02
+  },
+  {
+   "id": "Daniel_5",
+   "speaker": "Daniel",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Mania.",
+   "wer": 0.25,
+   "latency_ms": 1933.3,
+   "dur_s": 1.14
+  },
+  {
+   "id": "Daniel_6",
+   "speaker": "Daniel",
+   "ref": "Can you help me please?",
+   "hyp": "Can you help me please?",
+   "wer": 0.0,
+   "latency_ms": 1945.3,
+   "dur_s": 1.33
+  },
+  {
+   "id": "Daniel_7",
+   "speaker": "Daniel",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 1785.7,
+   "dur_s": 0.98
+  },
+  {
+   "id": "Daniel_8",
+   "speaker": "Daniel",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 2183.3,
+   "dur_s": 1.06
+  },
+  {
+   "id": "Daniel_9",
+   "speaker": "Daniel",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 1891.8,
+   "dur_s": 1.1
+  },
+  {
+   "id": "Daniel_10",
+   "speaker": "Daniel",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 2189.0,
+   "dur_s": 2.43
+  },
+  {
+   "id": "Daniel_11",
+   "speaker": "Daniel",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "Can you repeat that more slowly?",
+   "wer": 0.0,
+   "latency_ms": 1954.2,
+   "dur_s": 1.62
+  },
+  {
+   "id": "Daniel_12",
+   "speaker": "Daniel",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2320.8,
+   "dur_s": 2.32
+  },
+  {
+   "id": "Daniel_13",
+   "speaker": "Daniel",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 1982.5,
+   "dur_s": 1.52
+  },
+  {
+   "id": "Daniel_14",
+   "speaker": "Daniel",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and my chest hurts.",
+   "wer": 0.0,
+   "latency_ms": 2092.6,
+   "dur_s": 2.21
+  },
+  {
+   "id": "Daniel_15",
+   "speaker": "Daniel",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 2088.7,
+   "dur_s": 0.93
+  },
+  {
+   "id": "Daniel_16",
+   "speaker": "Daniel",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 1822.4,
+   "dur_s": 1.25
+  },
+  {
+   "id": "Daniel_17",
+   "speaker": "Daniel",
+   "ref": "Is this seat free?",
+   "hyp": "is the seat free.",
+   "wer": 0.25,
+   "latency_ms": 1876.4,
+   "dur_s": 1.14
+  },
+  {
+   "id": "Daniel_18",
+   "speaker": "Daniel",
+   "ref": "Call an ambulance now.",
+   "hyp": "Cool and ambulance now.",
+   "wer": 0.5,
+   "latency_ms": 2415.8,
+   "dur_s": 1.37
+  },
+  {
+   "id": "Daniel_19",
+   "speaker": "Daniel",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 1933.2,
+   "dur_s": 1.59
+  },
+  {
+   "id": "Karen_0",
+   "speaker": "Karen",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 2184.5,
+   "dur_s": 1.38
+  },
+  {
+   "id": "Karen_1",
+   "speaker": "Karen",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good, thank you.",
+   "wer": 0.0,
+   "latency_ms": 2050.0,
+   "dur_s": 1.67
+  },
+  {
+   "id": "Karen_2",
+   "speaker": "Karen",
+   "ref": "Love you.",
+   "hyp": "Love you.",
+   "wer": 0.0,
+   "latency_ms": 1921.2,
+   "dur_s": 0.58
+  },
+  {
+   "id": "Karen_3",
+   "speaker": "Karen",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 2152.7,
+   "dur_s": 1.01
+  },
+  {
+   "id": "Karen_4",
+   "speaker": "Karen",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 1912.0,
+   "dur_s": 0.89
+  },
+  {
+   "id": "Karen_5",
+   "speaker": "Karen",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Maniah.",
+   "wer": 0.25,
+   "latency_ms": 2385.0,
+   "dur_s": 1.21
+  },
+  {
+   "id": "Karen_6",
+   "speaker": "Karen",
+   "ref": "Can you help me please?",
+   "hyp": "Can you help me please?",
+   "wer": 0.0,
+   "latency_ms": 2348.5,
+   "dur_s": 1.29
+  },
+  {
+   "id": "Karen_7",
+   "speaker": "Karen",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 1935.1,
+   "dur_s": 0.94
+  },
+  {
+   "id": "Karen_8",
+   "speaker": "Karen",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 2050.7,
+   "dur_s": 0.98
+  },
+  {
+   "id": "Karen_9",
+   "speaker": "Karen",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 1871.5,
+   "dur_s": 1.14
+  },
+  {
+   "id": "Karen_10",
+   "speaker": "Karen",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 2357.3,
+   "dur_s": 2.38
+  },
+  {
+   "id": "Karen_11",
+   "speaker": "Karen",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "Can you repeat that more slowly?",
+   "wer": 0.0,
+   "latency_ms": 1970.7,
+   "dur_s": 1.62
+  },
+  {
+   "id": "Karen_12",
+   "speaker": "Karen",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2217.3,
+   "dur_s": 2.2
+  },
+  {
+   "id": "Karen_13",
+   "speaker": "Karen",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 1949.1,
+   "dur_s": 1.47
+  },
+  {
+   "id": "Karen_14",
+   "speaker": "Karen",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and much est hurts.",
+   "wer": 0.2857,
+   "latency_ms": 1976.8,
+   "dur_s": 1.99
+  },
+  {
+   "id": "Karen_15",
+   "speaker": "Karen",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 1821.8,
+   "dur_s": 0.86
+  },
+  {
+   "id": "Karen_16",
+   "speaker": "Karen",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 1872.1,
+   "dur_s": 1.13
+  },
+  {
+   "id": "Karen_17",
+   "speaker": "Karen",
+   "ref": "Is this seat free?",
+   "hyp": "Is this seat free?",
+   "wer": 0.0,
+   "latency_ms": 1870.4,
+   "dur_s": 1.1
+  },
+  {
+   "id": "Karen_18",
+   "speaker": "Karen",
+   "ref": "Call an ambulance now.",
+   "hyp": "Cool and ambulance now.",
+   "wer": 0.5,
+   "latency_ms": 1885.9,
+   "dur_s": 1.35
+  },
+  {
+   "id": "Karen_19",
+   "speaker": "Karen",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 1725.5,
+   "dur_s": 1.5
+  },
+  {
+   "id": "Rishi_0",
+   "speaker": "Rishi",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 1885.6,
+   "dur_s": 1.33
+  },
+  {
+   "id": "Rishi_1",
+   "speaker": "Rishi",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good, thank you.",
+   "wer": 0.0,
+   "latency_ms": 1971.4,
+   "dur_s": 1.57
+  },
+  {
+   "id": "Rishi_2",
+   "speaker": "Rishi",
+   "ref": "Love you.",
+   "hyp": "Love you!",
+   "wer": 0.0,
+   "latency_ms": 1603.7,
+   "dur_s": 0.59
+  },
+  {
+   "id": "Rishi_3",
+   "speaker": "Rishi",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 1738.6,
+   "dur_s": 1.18
+  },
+  {
+   "id": "Rishi_4",
+   "speaker": "Rishi",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 1813.3,
+   "dur_s": 1.18
+  },
+  {
+   "id": "Rishi_5",
+   "speaker": "Rishi",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Mania.",
+   "wer": 0.25,
+   "latency_ms": 1720.2,
+   "dur_s": 1.19
+  },
+  {
+   "id": "Rishi_6",
+   "speaker": "Rishi",
+   "ref": "Can you help me please?",
+   "hyp": "Can you help me please?",
+   "wer": 0.0,
+   "latency_ms": 2199.4,
+   "dur_s": 1.41
+  },
+  {
+   "id": "Rishi_7",
+   "speaker": "Rishi",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 1810.6,
+   "dur_s": 1.02
+  },
+  {
+   "id": "Rishi_8",
+   "speaker": "Rishi",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 1616.6,
+   "dur_s": 1.11
+  },
+  {
+   "id": "Rishi_9",
+   "speaker": "Rishi",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 1900.3,
+   "dur_s": 1.16
+  },
+  {
+   "id": "Rishi_10",
+   "speaker": "Rishi",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 1776.8,
+   "dur_s": 2.67
+  },
+  {
+   "id": "Rishi_11",
+   "speaker": "Rishi",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "Can you repeat that more slowly?",
+   "wer": 0.0,
+   "latency_ms": 1709.7,
+   "dur_s": 1.84
+  },
+  {
+   "id": "Rishi_12",
+   "speaker": "Rishi",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2235.2,
+   "dur_s": 2.8
+  },
+  {
+   "id": "Rishi_13",
+   "speaker": "Rishi",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 1850.0,
+   "dur_s": 1.67
+  },
+  {
+   "id": "Rishi_14",
+   "speaker": "Rishi",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and my chest hurts.",
+   "wer": 0.0,
+   "latency_ms": 2094.8,
+   "dur_s": 2.18
+  },
+  {
+   "id": "Rishi_15",
+   "speaker": "Rishi",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 1748.2,
+   "dur_s": 1.01
+  },
+  {
+   "id": "Rishi_16",
+   "speaker": "Rishi",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 1811.9,
+   "dur_s": 1.36
+  },
+  {
+   "id": "Rishi_17",
+   "speaker": "Rishi",
+   "ref": "Is this seat free?",
+   "hyp": "is this seat free?",
+   "wer": 0.0,
+   "latency_ms": 2782.4,
+   "dur_s": 1.04
+  },
+  {
+   "id": "Rishi_18",
+   "speaker": "Rishi",
+   "ref": "Call an ambulance now.",
+   "hyp": "call and ambulance now.",
+   "wer": 0.25,
+   "latency_ms": 2547.7,
+   "dur_s": 1.53
+  },
+  {
+   "id": "Rishi_19",
+   "speaker": "Rishi",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 2342.3,
+   "dur_s": 1.63
+  },
+  {
+   "id": "Moira_0",
+   "speaker": "Moira",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 1976.5,
+   "dur_s": 1.31
+  },
+  {
+   "id": "Moira_1",
+   "speaker": "Moira",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good, thank you.",
+   "wer": 0.0,
+   "latency_ms": 2226.7,
+   "dur_s": 1.44
+  },
+  {
+   "id": "Moira_2",
+   "speaker": "Moira",
+   "ref": "Love you.",
+   "hyp": "Love you.",
+   "wer": 0.0,
+   "latency_ms": 2250.6,
+   "dur_s": 0.54
+  },
+  {
+   "id": "Moira_3",
+   "speaker": "Moira",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 2168.3,
+   "dur_s": 0.99
+  },
+  {
+   "id": "Moira_4",
+   "speaker": "Moira",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 2660.7,
+   "dur_s": 0.89
+  },
+  {
+   "id": "Moira_5",
+   "speaker": "Moira",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Mania.",
+   "wer": 0.25,
+   "latency_ms": 2390.4,
+   "dur_s": 1.1
+  },
+  {
+   "id": "Moira_6",
+   "speaker": "Moira",
+   "ref": "Can you help me please?",
+   "hyp": "Can you help me please?",
+   "wer": 0.0,
+   "latency_ms": 2429.4,
+   "dur_s": 1.37
+  },
+  {
+   "id": "Moira_7",
+   "speaker": "Moira",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 2562.7,
+   "dur_s": 1.05
+  },
+  {
+   "id": "Moira_8",
+   "speaker": "Moira",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 2711.9,
+   "dur_s": 1.02
+  },
+  {
+   "id": "Moira_9",
+   "speaker": "Moira",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 2512.5,
+   "dur_s": 1.16
+  },
+  {
+   "id": "Moira_10",
+   "speaker": "Moira",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 2333.1,
+   "dur_s": 2.62
+  },
+  {
+   "id": "Moira_11",
+   "speaker": "Moira",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "Can you repeat that more slowly?",
+   "wer": 0.0,
+   "latency_ms": 2434.5,
+   "dur_s": 2.01
+  },
+  {
+   "id": "Moira_12",
+   "speaker": "Moira",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2613.0,
+   "dur_s": 2.27
+  },
+  {
+   "id": "Moira_13",
+   "speaker": "Moira",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 2374.2,
+   "dur_s": 1.64
+  },
+  {
+   "id": "Moira_14",
+   "speaker": "Moira",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and my chest hurts.",
+   "wer": 0.0,
+   "latency_ms": 2853.6,
+   "dur_s": 2.15
+  },
+  {
+   "id": "Moira_15",
+   "speaker": "Moira",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 2246.8,
+   "dur_s": 0.88
+  },
+  {
+   "id": "Moira_16",
+   "speaker": "Moira",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 2246.3,
+   "dur_s": 1.12
+  },
+  {
+   "id": "Moira_17",
+   "speaker": "Moira",
+   "ref": "Is this seat free?",
+   "hyp": "Is this seat free?",
+   "wer": 0.0,
+   "latency_ms": 2338.0,
+   "dur_s": 1.13
+  },
+  {
+   "id": "Moira_18",
+   "speaker": "Moira",
+   "ref": "Call an ambulance now.",
+   "hyp": "call an ambulance now.",
+   "wer": 0.0,
+   "latency_ms": 2226.9,
+   "dur_s": 1.4
+  },
+  {
+   "id": "Moira_19",
+   "speaker": "Moira",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 2668.4,
+   "dur_s": 1.54
+  },
+  {
+   "id": "Tessa_0",
+   "speaker": "Tessa",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 2571.6,
+   "dur_s": 1.61
+  },
+  {
+   "id": "Tessa_1",
+   "speaker": "Tessa",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good, thank you.",
+   "wer": 0.0,
+   "latency_ms": 2282.7,
+   "dur_s": 1.82
+  },
+  {
+   "id": "Tessa_2",
+   "speaker": "Tessa",
+   "ref": "Love you.",
+   "hyp": "Love you.",
+   "wer": 0.0,
+   "latency_ms": 2431.7,
+   "dur_s": 0.7
+  },
+  {
+   "id": "Tessa_3",
+   "speaker": "Tessa",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 2245.8,
+   "dur_s": 1.34
+  },
+  {
+   "id": "Tessa_4",
+   "speaker": "Tessa",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 2551.5,
+   "dur_s": 1.19
+  },
+  {
+   "id": "Tessa_5",
+   "speaker": "Tessa",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Monia.",
+   "wer": 0.25,
+   "latency_ms": 2342.7,
+   "dur_s": 1.4
+  },
+  {
+   "id": "Tessa_6",
+   "speaker": "Tessa",
+   "ref": "Can you help me please?",
+   "hyp": "Can you help me please?",
+   "wer": 0.0,
+   "latency_ms": 2457.8,
+   "dur_s": 1.57
+  },
+  {
+   "id": "Tessa_7",
+   "speaker": "Tessa",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 2936.1,
+   "dur_s": 1.08
+  },
+  {
+   "id": "Tessa_8",
+   "speaker": "Tessa",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 1941.8,
+   "dur_s": 1.12
+  },
+  {
+   "id": "Tessa_9",
+   "speaker": "Tessa",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 2128.3,
+   "dur_s": 1.24
+  },
+  {
+   "id": "Tessa_10",
+   "speaker": "Tessa",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 2455.0,
+   "dur_s": 2.69
+  },
+  {
+   "id": "Tessa_11",
+   "speaker": "Tessa",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "Can you repeat that more slowly?",
+   "wer": 0.0,
+   "latency_ms": 2026.5,
+   "dur_s": 2.06
+  },
+  {
+   "id": "Tessa_12",
+   "speaker": "Tessa",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2356.1,
+   "dur_s": 2.53
+  },
+  {
+   "id": "Tessa_13",
+   "speaker": "Tessa",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 2234.1,
+   "dur_s": 1.64
+  },
+  {
+   "id": "Tessa_14",
+   "speaker": "Tessa",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and my chest hurts.",
+   "wer": 0.0,
+   "latency_ms": 2145.1,
+   "dur_s": 2.19
+  },
+  {
+   "id": "Tessa_15",
+   "speaker": "Tessa",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 1962.5,
+   "dur_s": 1.06
+  },
+  {
+   "id": "Tessa_16",
+   "speaker": "Tessa",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 2216.4,
+   "dur_s": 1.36
+  },
+  {
+   "id": "Tessa_17",
+   "speaker": "Tessa",
+   "ref": "Is this seat free?",
+   "hyp": "is the seat free.",
+   "wer": 0.25,
+   "latency_ms": 1965.2,
+   "dur_s": 1.14
+  },
+  {
+   "id": "Tessa_18",
+   "speaker": "Tessa",
+   "ref": "Call an ambulance now.",
+   "hyp": "call an ambulance now.",
+   "wer": 0.0,
+   "latency_ms": 2280.7,
+   "dur_s": 1.4
+  },
+  {
+   "id": "Tessa_19",
+   "speaker": "Tessa",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 2369.1,
+   "dur_s": 1.68
+  },
+  {
+   "id": "Fred_0",
+   "speaker": "Fred",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello, how are you?",
+   "wer": 0.0,
+   "latency_ms": 2142.9,
+   "dur_s": 1.66
+  },
+  {
+   "id": "Fred_1",
+   "speaker": "Fred",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good. Thank you.",
+   "wer": 0.0,
+   "latency_ms": 2200.4,
+   "dur_s": 1.77
+  },
+  {
+   "id": "Fred_2",
+   "speaker": "Fred",
+   "ref": "Love you.",
+   "hyp": "Love you.",
+   "wer": 0.0,
+   "latency_ms": 2143.8,
+   "dur_s": 0.72
+  },
+  {
+   "id": "Fred_3",
+   "speaker": "Fred",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 2135.9,
+   "dur_s": 1.03
+  },
+  {
+   "id": "Fred_4",
+   "speaker": "Fred",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 2120.2,
+   "dur_s": 1.13
+  },
+  {
+   "id": "Fred_5",
+   "speaker": "Fred",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Mario.",
+   "wer": 0.25,
+   "latency_ms": 2090.1,
+   "dur_s": 1.12
+  },
+  {
+   "id": "Fred_6",
+   "speaker": "Fred",
+   "ref": "Can you help me please?",
+   "hyp": "new health mate please.",
+   "wer": 0.8,
+   "latency_ms": 2193.3,
+   "dur_s": 1.31
+  },
+  {
+   "id": "Fred_7",
+   "speaker": "Fred",
+   "ref": "I need a doctor.",
+   "hyp": "I need a doctor.",
+   "wer": 0.0,
+   "latency_ms": 2077.6,
+   "dur_s": 1.07
+  },
+  {
+   "id": "Fred_8",
+   "speaker": "Fred",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 2149.8,
+   "dur_s": 1.07
+  },
+  {
+   "id": "Fred_9",
+   "speaker": "Fred",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 1915.2,
+   "dur_s": 1.21
+  },
+  {
+   "id": "Fred_10",
+   "speaker": "Fred",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry, I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 2276.7,
+   "dur_s": 2.68
+  },
+  {
+   "id": "Fred_11",
+   "speaker": "Fred",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "You repeat that more slowly.",
+   "wer": 0.1667,
+   "latency_ms": 2190.3,
+   "dur_s": 1.75
+  },
+  {
+   "id": "Fred_12",
+   "speaker": "Fred",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "the appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2158.0,
+   "dur_s": 2.57
+  },
+  {
+   "id": "Fred_13",
+   "speaker": "Fred",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 2295.7,
+   "dur_s": 1.73
+  },
+  {
+   "id": "Fred_14",
+   "speaker": "Fred",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy in my chest hurts.",
+   "wer": 0.1429,
+   "latency_ms": 1950.9,
+   "dur_s": 2.06
+  },
+  {
+   "id": "Fred_15",
+   "speaker": "Fred",
+   "ref": "See you later.",
+   "hyp": "See you later.",
+   "wer": 0.0,
+   "latency_ms": 1988.7,
+   "dur_s": 1.0
+  },
+  {
+   "id": "Fred_16",
+   "speaker": "Fred",
+   "ref": "Thank you for waiting.",
+   "hyp": "Thank you for waiting.",
+   "wer": 0.0,
+   "latency_ms": 2180.3,
+   "dur_s": 1.39
+  },
+  {
+   "id": "Fred_17",
+   "speaker": "Fred",
+   "ref": "Is this seat free?",
+   "hyp": "is this C3?",
+   "wer": 0.5,
+   "latency_ms": 1816.7,
+   "dur_s": 1.0
+  },
+  {
+   "id": "Fred_18",
+   "speaker": "Fred",
+   "ref": "Call an ambulance now.",
+   "hyp": "Call an ambulance now.",
+   "wer": 0.0,
+   "latency_ms": 2226.7,
+   "dur_s": 1.49
+  },
+  {
+   "id": "Fred_19",
+   "speaker": "Fred",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 2116.7,
+   "dur_s": 1.71
+  },
+  {
+   "id": "Albert_0",
+   "speaker": "Albert",
+   "ref": "Hello, how are you?",
+   "hyp": "Hello! How are you?",
+   "wer": 0.0,
+   "latency_ms": 2088.1,
+   "dur_s": 2.28
+  },
+  {
+   "id": "Albert_1",
+   "speaker": "Albert",
+   "ref": "I am good, thank you.",
+   "hyp": "I am good. Thank you.",
+   "wer": 0.0,
+   "latency_ms": 2110.8,
+   "dur_s": 2.42
+  },
+  {
+   "id": "Albert_2",
+   "speaker": "Albert",
+   "ref": "Love you.",
+   "hyp": "Love you!",
+   "wer": 0.0,
+   "latency_ms": 1837.3,
+   "dur_s": 0.98
+  },
+  {
+   "id": "Albert_3",
+   "speaker": "Albert",
+   "ref": "Nice to meet you.",
+   "hyp": "Nice to meet you.",
+   "wer": 0.0,
+   "latency_ms": 2270.8,
+   "dur_s": 1.35
+  },
+  {
+   "id": "Albert_4",
+   "speaker": "Albert",
+   "ref": "What is your name?",
+   "hyp": "What is your name?",
+   "wer": 0.0,
+   "latency_ms": 2528.1,
+   "dur_s": 1.46
+  },
+  {
+   "id": "Albert_5",
+   "speaker": "Albert",
+   "ref": "My name is Manya.",
+   "hyp": "My name is Sladiah.",
+   "wer": 0.25,
+   "latency_ms": 2411.6,
+   "dur_s": 1.44
+  },
+  {
+   "id": "Albert_6",
+   "speaker": "Albert",
+   "ref": "Can you help me please?",
+   "hyp": "You're out of me, please!",
+   "wer": 0.8,
+   "latency_ms": 2165.5,
+   "dur_s": 1.73
+  },
+  {
+   "id": "Albert_7",
+   "speaker": "Albert",
+   "ref": "I need a doctor.",
+   "hyp": "I hate the doctor!",
+   "wer": 0.5,
+   "latency_ms": 2092.1,
+   "dur_s": 1.38
+  },
+  {
+   "id": "Albert_8",
+   "speaker": "Albert",
+   "ref": "Where does it hurt?",
+   "hyp": "Where does it hurt?",
+   "wer": 0.0,
+   "latency_ms": 2069.8,
+   "dur_s": 1.37
+  },
+  {
+   "id": "Albert_9",
+   "speaker": "Albert",
+   "ref": "Please take a seat.",
+   "hyp": "Please take a seat.",
+   "wer": 0.0,
+   "latency_ms": 2294.9,
+   "dur_s": 1.59
+  },
+  {
+   "id": "Albert_10",
+   "speaker": "Albert",
+   "ref": "I am sorry, I did not understand.",
+   "hyp": "I am sorry. I did not understand.",
+   "wer": 0.0,
+   "latency_ms": 2151.8,
+   "dur_s": 3.59
+  },
+  {
+   "id": "Albert_11",
+   "speaker": "Albert",
+   "ref": "Can you repeat that more slowly?",
+   "hyp": "You repeat that more slowly!",
+   "wer": 0.1667,
+   "latency_ms": 2289.4,
+   "dur_s": 2.31
+  },
+  {
+   "id": "Albert_12",
+   "speaker": "Albert",
+   "ref": "The appointment is at three o'clock tomorrow.",
+   "hyp": "The appointment is at 3 o'clock tomorrow.",
+   "wer": 0.0,
+   "latency_ms": 2358.9,
+   "dur_s": 3.38
+  },
+  {
+   "id": "Albert_13",
+   "speaker": "Albert",
+   "ref": "Do you have any allergies?",
+   "hyp": "Do you have any allergies?",
+   "wer": 0.0,
+   "latency_ms": 2147.6,
+   "dur_s": 2.28
+  },
+  {
+   "id": "Albert_14",
+   "speaker": "Albert",
+   "ref": "I feel dizzy and my chest hurts.",
+   "hyp": "I feel dizzy and I shassers!",
+   "wer": 0.4286,
+   "latency_ms": 2081.5,
+   "dur_s": 2.66
+  },
+  {
+   "id": "Albert_15",
+   "speaker": "Albert",
+   "ref": "See you later.",
+   "hyp": "See you later!",
+   "wer": 0.0,
+   "latency_ms": 2124.3,
+   "dur_s": 1.33
+  },
+  {
+   "id": "Albert_16",
+   "speaker": "Albert",
+   "ref": "Thank you for waiting.",
+   "hyp": "5248 in here.",
+   "wer": 1.0,
+   "latency_ms": 2038.5,
+   "dur_s": 1.79
+  },
+  {
+   "id": "Albert_17",
+   "speaker": "Albert",
+   "ref": "Is this seat free?",
+   "hyp": "Is this C3?",
+   "wer": 0.5,
+   "latency_ms": 2342.1,
+   "dur_s": 1.3
+  },
+  {
+   "id": "Albert_18",
+   "speaker": "Albert",
+   "ref": "Call an ambulance now.",
+   "hyp": "Oh, I'm empty, we're still!",
+   "wer": 1.75,
+   "latency_ms": 2691.2,
+   "dur_s": 1.93
+  },
+  {
+   "id": "Albert_19",
+   "speaker": "Albert",
+   "ref": "Yes, that is right.",
+   "hyp": "Yes, that is right.",
+   "wer": 0.0,
+   "latency_ms": 2468.5,
+   "dur_s": 2.35
+  }
+ ]
+}

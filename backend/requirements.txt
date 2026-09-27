@@ -1,0 +1,12 @@
+# SignBridge backend (FastAPI). Install:  pip install -r backend/requirements.txt
+fastapi>=0.110
+uvicorn[standard]>=0.29
+numpy
+soundfile
+openai-whisper        # speech to text (needs ffmpeg only for non-WAV input; the app sends WAV)
+torch
+transformers          # tone tagger
+wordfreq              # English word list for the smoother's dictionary check
+# tests
+pytest
+httpx

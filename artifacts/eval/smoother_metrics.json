@@ -1,0 +1,1707 @@
+{
+  "n_cases": 30,
+  "designed_model": "llama3:8b (Ollama) - not runnable on eval machine (disk)",
+  "evaluated_llm": "Qwen/Qwen2.5-0.5B-Instruct (greedy decoding, same system prompt)",
+  "rule_gloss_grammar": {
+    "exact_match_rate": 0.5333,
+    "acceptable_match_rate": 0.5333,
+    "mean_wer": 0.2944,
+    "latency_p50_ms": 0.0,
+    "by_category": {
+      "C1 clean glosses": {
+        "n": 8,
+        "exact": 8,
+        "acceptable": 8
+      },
+      "C2 fingerspelled": {
+        "n": 7,
+        "exact": 7,
+        "acceptable": 7
+      },
+      "C3 noisy recogniser output": {
+        "n": 8,
+        "exact": 0,
+        "acceptable": 0
+      },
+      "C4 mixed glosses + fingerspelling": {
+        "n": 7,
+        "exact": 1,
+        "acceptable": 1
+      }
+    },
+    "rows": [
+      {
+        "id": "C1-01",
+        "cat": "C1 clean glosses",
+        "signs": "ME GOOD",
+        "expected": "I am good.",
+        "output": "I am good.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-02",
+        "cat": "C1 clean glosses",
+        "signs": "HOW YOU",
+        "expected": "How are you?",
+        "output": "How are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-03",
+        "cat": "C1 clean glosses",
+        "signs": "LOVE YOU",
+        "expected": "Love you.",
+        "output": "Love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-04",
+        "cat": "C1 clean glosses",
+        "signs": "HELLO HOW YOU",
+        "expected": "Hello, how are you?",
+        "output": "Hello, how are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-05",
+        "cat": "C1 clean glosses",
+        "signs": "ME LOVE YOU",
+        "expected": "I love you.",
+        "output": "I love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-06",
+        "cat": "C1 clean glosses",
+        "signs": "THANK-YOU",
+        "expected": "Thank you.",
+        "output": "Thank you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-07",
+        "cat": "C1 clean glosses",
+        "signs": "YOU GOOD",
+        "expected": "You good?",
+        "output": "You good?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-08",
+        "cat": "C1 clean glosses",
+        "signs": "ME NEED HELP",
+        "expected": "I need help.",
+        "output": "I need help.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-09",
+        "cat": "C2 fingerspelled",
+        "signs": "M Y _ N A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "My name is manya.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-10",
+        "cat": "C2 fingerspelled",
+        "signs": "H E L L O",
+        "expected": "Hello.",
+        "output": "Hello.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-11",
+        "cat": "C2 fingerspelled",
+        "signs": "T H A N K S",
+        "expected": "Thanks.",
+        "output": "Thanks.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-12",
+        "cat": "C2 fingerspelled",
+        "signs": "S E E _ Y O U _ L A T E R",
+        "expected": "See you later.",
+        "output": "See you later.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-13",
+        "cat": "C2 fingerspelled",
+        "signs": "C A L L _ A _ D O C T O R",
+        "expected": "Call a doctor.",
+        "output": "Call a doctor.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-14",
+        "cat": "C2 fingerspelled",
+        "signs": "Y E S",
+        "expected": "Yes.",
+        "output": "Yes.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-15",
+        "cat": "C2 fingerspelled",
+        "signs": "N O _ T H A N K S",
+        "expected": "No thanks.",
+        "output": "No thanks.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-16",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L L L O",
+        "expected": "Hello.",
+        "output": "Helllo.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-17",
+        "cat": "C3 noisy recogniser output",
+        "signs": "M Y _ M A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "My mame is manya.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C3-18",
+        "cat": "C3 noisy recogniser output",
+        "signs": "T H A N K T",
+        "expected": "Thanks.",
+        "output": "Thankt.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-19",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L P _ N E",
+        "expected": "Help me.",
+        "output": "Help ne.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C3-20",
+        "cat": "C3 noisy recogniser output",
+        "signs": "G O O D _ N O R N I N G",
+        "expected": "Good morning.",
+        "output": "Good norning.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C3-21",
+        "cat": "C3 noisy recogniser output",
+        "signs": "I _ A N _ F I N E",
+        "expected": "I am fine.",
+        "output": "I an fine.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.333
+      },
+      {
+        "id": "C3-22",
+        "cat": "C3 noisy recogniser output",
+        "signs": "P L E A T E",
+        "expected": "Please.",
+        "output": "Pleate.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-23",
+        "cat": "C3 noisy recogniser output",
+        "signs": "C A L L A M B U L A N C E",
+        "expected": "Call an ambulance.",
+        "output": "Callambulance.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-24",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NAME M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "I name manya.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C4-25",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "HELLO ME NAME S A M",
+        "expected": "Hello, my name is Sam.",
+        "output": "Hello I name sam.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.4
+      },
+      {
+        "id": "C4-26",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NEED D O C T O R",
+        "expected": "I need a doctor.",
+        "output": "I need doctor.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C4-27",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "WHERE B A T H R O O M",
+        "expected": "Where is the bathroom?",
+        "output": "Where bathroom?",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C4-28",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "YOU NAME WHAT",
+        "expected": "What is your name?",
+        "output": "You name what.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-29",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME FEEL S I C K",
+        "expected": "I feel sick.",
+        "output": "I feel sick.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C4-30",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "THANK-YOU HELP ME",
+        "expected": "Thank you for helping me.",
+        "output": "Thank you help I.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.6
+      }
+    ]
+  },
+  "llm": {
+    "exact_match_rate": 0.2,
+    "acceptable_match_rate": 0.3,
+    "mean_wer": 1.4172,
+    "latency_p50_ms": 3664.9,
+    "by_category": {
+      "C1 clean glosses": {
+        "n": 8,
+        "exact": 2,
+        "acceptable": 2
+      },
+      "C2 fingerspelled": {
+        "n": 7,
+        "exact": 1,
+        "acceptable": 2
+      },
+      "C3 noisy recogniser output": {
+        "n": 8,
+        "exact": 3,
+        "acceptable": 4
+      },
+      "C4 mixed glosses + fingerspelling": {
+        "n": 7,
+        "exact": 0,
+        "acceptable": 1
+      }
+    },
+    "rows": [
+      {
+        "id": "C1-01",
+        "cat": "C1 clean glosses",
+        "signs": "ME GOOD",
+        "expected": "I am good.",
+        "output": "Me good.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.667
+      },
+      {
+        "id": "C1-02",
+        "cat": "C1 clean glosses",
+        "signs": "HOW YOU",
+        "expected": "How are you?",
+        "output": "How do you?",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.333
+      },
+      {
+        "id": "C1-03",
+        "cat": "C1 clean glosses",
+        "signs": "LOVE YOU",
+        "expected": "Love you.",
+        "output": "Love you very much.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C1-04",
+        "cat": "C1 clean glosses",
+        "signs": "HELLO HOW YOU",
+        "expected": "Hello, how are you?",
+        "output": "Hello how are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-05",
+        "cat": "C1 clean glosses",
+        "signs": "ME LOVE YOU",
+        "expected": "I love you.",
+        "output": "Me and you love each other very much.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 2.333
+      },
+      {
+        "id": "C1-06",
+        "cat": "C1 clean glosses",
+        "signs": "THANK-YOU",
+        "expected": "Thank you.",
+        "output": "Thank you!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-07",
+        "cat": "C1 clean glosses",
+        "signs": "YOU GOOD",
+        "expected": "You good?",
+        "output": "You're good.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C1-08",
+        "cat": "C1 clean glosses",
+        "signs": "ME NEED HELP",
+        "expected": "I need help.",
+        "output": "ME NEED HELP",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.333
+      },
+      {
+        "id": "C2-09",
+        "cat": "C2 fingerspelled",
+        "signs": "M Y _ N A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The name \"Mandy\" sounds familiar.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C2-10",
+        "cat": "C2 fingerspelled",
+        "signs": "H E L L O",
+        "expected": "Hello.",
+        "output": "Hello!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-11",
+        "cat": "C2 fingerspelled",
+        "signs": "T H A N K S",
+        "expected": "Thanks.",
+        "output": "Thank you.",
+        "exact": false,
+        "acceptable": true,
+        "wer": 2.0
+      },
+      {
+        "id": "C2-12",
+        "cat": "C2 fingerspelled",
+        "signs": "S E E _ Y O U _ L A T E R",
+        "expected": "See you later.",
+        "output": "The person is looking at something and writing on a piece of paper.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 4.333
+      },
+      {
+        "id": "C2-13",
+        "cat": "C2 fingerspelled",
+        "signs": "C A L L _ A _ D O C T O R",
+        "expected": "Call a doctor.",
+        "output": "The doctor called for the patient.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 2.0
+      },
+      {
+        "id": "C2-14",
+        "cat": "C2 fingerspelled",
+        "signs": "Y E S",
+        "expected": "Yes.",
+        "output": "The letter 'Y' sounds like 'yes'.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 6.0
+      },
+      {
+        "id": "C2-15",
+        "cat": "C2 fingerspelled",
+        "signs": "N O _ T H A N K S",
+        "expected": "No thanks.",
+        "output": "The quick brown fox jumps over the lazy dog.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 4.5
+      },
+      {
+        "id": "C3-16",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L L L O",
+        "expected": "Hello.",
+        "output": "Hello!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-17",
+        "cat": "C3 noisy recogniser output",
+        "signs": "M Y _ M A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The man is my neighbor.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-18",
+        "cat": "C3 noisy recogniser output",
+        "signs": "T H A N K T",
+        "expected": "Thanks.",
+        "output": "Thank you.",
+        "exact": false,
+        "acceptable": true,
+        "wer": 2.0
+      },
+      {
+        "id": "C3-19",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L P _ N E",
+        "expected": "Help me.",
+        "output": "Help me please.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C3-20",
+        "cat": "C3 noisy recogniser output",
+        "signs": "G O O D _ N O R N I N G",
+        "expected": "Good morning.",
+        "output": "Good morning.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-21",
+        "cat": "C3 noisy recogniser output",
+        "signs": "I _ A N _ F I N E",
+        "expected": "I am fine.",
+        "output": "I'm fine.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-22",
+        "cat": "C3 noisy recogniser output",
+        "signs": "P L E A T E",
+        "expected": "Please.",
+        "output": "The sign for \"P\" represents the letter \"P\".",
+        "exact": false,
+        "acceptable": false,
+        "wer": 8.0
+      },
+      {
+        "id": "C3-23",
+        "cat": "C3 noisy recogniser output",
+        "signs": "C A L L A M B U L A N C E",
+        "expected": "Call an ambulance.",
+        "output": "Call me ABC.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.667
+      },
+      {
+        "id": "C4-24",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NAME M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The person named Mary has many names.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.75
+      },
+      {
+        "id": "C4-25",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "HELLO ME NAME S A M",
+        "expected": "Hello, my name is Sam.",
+        "output": "Hello, my name is Sarah.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.2
+      },
+      {
+        "id": "C4-26",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NEED D O C T O R",
+        "expected": "I need a doctor.",
+        "output": "ME NEED A DOCTOR.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C4-27",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "WHERE B A T H R O O M",
+        "expected": "Where is the bathroom?",
+        "output": "Where are you?",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.75
+      },
+      {
+        "id": "C4-28",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "YOU NAME WHAT",
+        "expected": "What is your name?",
+        "output": "You name what.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-29",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME FEEL S I C K",
+        "expected": "I feel sick.",
+        "output": "The person feels sick.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-30",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "THANK-YOU HELP ME",
+        "expected": "Thank you for helping me.",
+        "output": "Thank you for your help!",
+        "exact": false,
+        "acceptable": true,
+        "wer": 0.4
+      }
+    ]
+  },
+  "hybrid_v1_grammar_then_llm": {
+    "exact_match_rate": 0.3667,
+    "acceptable_match_rate": 0.4667,
+    "mean_wer": 1.2561,
+    "latency_p50_ms": 3376.9,
+    "by_category": {
+      "C1 clean glosses": {
+        "n": 8,
+        "exact": 7,
+        "acceptable": 7
+      },
+      "C2 fingerspelled": {
+        "n": 7,
+        "exact": 1,
+        "acceptable": 2
+      },
+      "C3 noisy recogniser output": {
+        "n": 8,
+        "exact": 3,
+        "acceptable": 4
+      },
+      "C4 mixed glosses + fingerspelling": {
+        "n": 7,
+        "exact": 0,
+        "acceptable": 1
+      }
+    },
+    "rows": [
+      {
+        "id": "C1-01",
+        "cat": "C1 clean glosses",
+        "signs": "ME GOOD",
+        "expected": "I am good.",
+        "output": "I am good.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-02",
+        "cat": "C1 clean glosses",
+        "signs": "HOW YOU",
+        "expected": "How are you?",
+        "output": "How are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-03",
+        "cat": "C1 clean glosses",
+        "signs": "LOVE YOU",
+        "expected": "Love you.",
+        "output": "Love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-04",
+        "cat": "C1 clean glosses",
+        "signs": "HELLO HOW YOU",
+        "expected": "Hello, how are you?",
+        "output": "Hello, how are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-05",
+        "cat": "C1 clean glosses",
+        "signs": "ME LOVE YOU",
+        "expected": "I love you.",
+        "output": "I love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-06",
+        "cat": "C1 clean glosses",
+        "signs": "THANK-YOU",
+        "expected": "Thank you.",
+        "output": "Thank you!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-07",
+        "cat": "C1 clean glosses",
+        "signs": "YOU GOOD",
+        "expected": "You good?",
+        "output": "You good?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-08",
+        "cat": "C1 clean glosses",
+        "signs": "ME NEED HELP",
+        "expected": "I need help.",
+        "output": "ME NEED HELP",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.333
+      },
+      {
+        "id": "C2-09",
+        "cat": "C2 fingerspelled",
+        "signs": "M Y _ N A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The name \"Mandy\" sounds familiar.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C2-10",
+        "cat": "C2 fingerspelled",
+        "signs": "H E L L O",
+        "expected": "Hello.",
+        "output": "Hello!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-11",
+        "cat": "C2 fingerspelled",
+        "signs": "T H A N K S",
+        "expected": "Thanks.",
+        "output": "Thank you.",
+        "exact": false,
+        "acceptable": true,
+        "wer": 2.0
+      },
+      {
+        "id": "C2-12",
+        "cat": "C2 fingerspelled",
+        "signs": "S E E _ Y O U _ L A T E R",
+        "expected": "See you later.",
+        "output": "The person is looking at something and writing on a piece of paper.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 4.333
+      },
+      {
+        "id": "C2-13",
+        "cat": "C2 fingerspelled",
+        "signs": "C A L L _ A _ D O C T O R",
+        "expected": "Call a doctor.",
+        "output": "The doctor called for the patient.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 2.0
+      },
+      {
+        "id": "C2-14",
+        "cat": "C2 fingerspelled",
+        "signs": "Y E S",
+        "expected": "Yes.",
+        "output": "The letter 'Y' sounds like 'yes'.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 6.0
+      },
+      {
+        "id": "C2-15",
+        "cat": "C2 fingerspelled",
+        "signs": "N O _ T H A N K S",
+        "expected": "No thanks.",
+        "output": "The quick brown fox jumps over the lazy dog.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 4.5
+      },
+      {
+        "id": "C3-16",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L L L O",
+        "expected": "Hello.",
+        "output": "Hello!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-17",
+        "cat": "C3 noisy recogniser output",
+        "signs": "M Y _ M A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The man is my neighbor.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-18",
+        "cat": "C3 noisy recogniser output",
+        "signs": "T H A N K T",
+        "expected": "Thanks.",
+        "output": "Thank you.",
+        "exact": false,
+        "acceptable": true,
+        "wer": 2.0
+      },
+      {
+        "id": "C3-19",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L P _ N E",
+        "expected": "Help me.",
+        "output": "Help me please.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C3-20",
+        "cat": "C3 noisy recogniser output",
+        "signs": "G O O D _ N O R N I N G",
+        "expected": "Good morning.",
+        "output": "Good morning.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-21",
+        "cat": "C3 noisy recogniser output",
+        "signs": "I _ A N _ F I N E",
+        "expected": "I am fine.",
+        "output": "I'm fine.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-22",
+        "cat": "C3 noisy recogniser output",
+        "signs": "P L E A T E",
+        "expected": "Please.",
+        "output": "The sign for \"P\" represents the letter \"P\".",
+        "exact": false,
+        "acceptable": false,
+        "wer": 8.0
+      },
+      {
+        "id": "C3-23",
+        "cat": "C3 noisy recogniser output",
+        "signs": "C A L L A M B U L A N C E",
+        "expected": "Call an ambulance.",
+        "output": "Call me ABC.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.667
+      },
+      {
+        "id": "C4-24",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NAME M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The person named Mary has many names.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.75
+      },
+      {
+        "id": "C4-25",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "HELLO ME NAME S A M",
+        "expected": "Hello, my name is Sam.",
+        "output": "Hello, my name is Sarah.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.2
+      },
+      {
+        "id": "C4-26",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NEED D O C T O R",
+        "expected": "I need a doctor.",
+        "output": "ME NEED A DOCTOR.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C4-27",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "WHERE B A T H R O O M",
+        "expected": "Where is the bathroom?",
+        "output": "Where are you?",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.75
+      },
+      {
+        "id": "C4-28",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "YOU NAME WHAT",
+        "expected": "What is your name?",
+        "output": "You name what.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-29",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME FEEL S I C K",
+        "expected": "I feel sick.",
+        "output": "The person feels sick.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-30",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "THANK-YOU HELP ME",
+        "expected": "Thank you for helping me.",
+        "output": "Thank you for your help!",
+        "exact": false,
+        "acceptable": true,
+        "wer": 0.4
+      }
+    ]
+  },
+  "hybrid_v2_grammar_dictionary_then_llm": {
+    "exact_match_rate": 0.5667,
+    "acceptable_match_rate": 0.6,
+    "mean_wer": 0.6,
+    "latency_p50_ms": 0.0,
+    "by_category": {
+      "C1 clean glosses": {
+        "n": 8,
+        "exact": 8,
+        "acceptable": 8
+      },
+      "C2 fingerspelled": {
+        "n": 7,
+        "exact": 6,
+        "acceptable": 6
+      },
+      "C3 noisy recogniser output": {
+        "n": 8,
+        "exact": 2,
+        "acceptable": 3
+      },
+      "C4 mixed glosses + fingerspelling": {
+        "n": 7,
+        "exact": 1,
+        "acceptable": 1
+      }
+    },
+    "rows": [
+      {
+        "id": "C1-01",
+        "cat": "C1 clean glosses",
+        "signs": "ME GOOD",
+        "expected": "I am good.",
+        "output": "I am good.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-02",
+        "cat": "C1 clean glosses",
+        "signs": "HOW YOU",
+        "expected": "How are you?",
+        "output": "How are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-03",
+        "cat": "C1 clean glosses",
+        "signs": "LOVE YOU",
+        "expected": "Love you.",
+        "output": "Love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-04",
+        "cat": "C1 clean glosses",
+        "signs": "HELLO HOW YOU",
+        "expected": "Hello, how are you?",
+        "output": "Hello, how are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-05",
+        "cat": "C1 clean glosses",
+        "signs": "ME LOVE YOU",
+        "expected": "I love you.",
+        "output": "I love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-06",
+        "cat": "C1 clean glosses",
+        "signs": "THANK-YOU",
+        "expected": "Thank you.",
+        "output": "Thank you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-07",
+        "cat": "C1 clean glosses",
+        "signs": "YOU GOOD",
+        "expected": "You good?",
+        "output": "You good?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-08",
+        "cat": "C1 clean glosses",
+        "signs": "ME NEED HELP",
+        "expected": "I need help.",
+        "output": "I need help.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-09",
+        "cat": "C2 fingerspelled",
+        "signs": "M Y _ N A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The name \"Mandy\" sounds familiar.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C2-10",
+        "cat": "C2 fingerspelled",
+        "signs": "H E L L O",
+        "expected": "Hello.",
+        "output": "Hello.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-11",
+        "cat": "C2 fingerspelled",
+        "signs": "T H A N K S",
+        "expected": "Thanks.",
+        "output": "Thanks.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-12",
+        "cat": "C2 fingerspelled",
+        "signs": "S E E _ Y O U _ L A T E R",
+        "expected": "See you later.",
+        "output": "See you later.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-13",
+        "cat": "C2 fingerspelled",
+        "signs": "C A L L _ A _ D O C T O R",
+        "expected": "Call a doctor.",
+        "output": "Call a doctor.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-14",
+        "cat": "C2 fingerspelled",
+        "signs": "Y E S",
+        "expected": "Yes.",
+        "output": "Yes.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-15",
+        "cat": "C2 fingerspelled",
+        "signs": "N O _ T H A N K S",
+        "expected": "No thanks.",
+        "output": "No thanks.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-16",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L L L O",
+        "expected": "Hello.",
+        "output": "Hello!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-17",
+        "cat": "C3 noisy recogniser output",
+        "signs": "M Y _ M A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The man is my neighbor.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-18",
+        "cat": "C3 noisy recogniser output",
+        "signs": "T H A N K T",
+        "expected": "Thanks.",
+        "output": "Thank you.",
+        "exact": false,
+        "acceptable": true,
+        "wer": 2.0
+      },
+      {
+        "id": "C3-19",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L P _ N E",
+        "expected": "Help me.",
+        "output": "Help ne.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C3-20",
+        "cat": "C3 noisy recogniser output",
+        "signs": "G O O D _ N O R N I N G",
+        "expected": "Good morning.",
+        "output": "Good morning.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-21",
+        "cat": "C3 noisy recogniser output",
+        "signs": "I _ A N _ F I N E",
+        "expected": "I am fine.",
+        "output": "I an fine.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.333
+      },
+      {
+        "id": "C3-22",
+        "cat": "C3 noisy recogniser output",
+        "signs": "P L E A T E",
+        "expected": "Please.",
+        "output": "The sign for \"P\" represents the letter \"P\".",
+        "exact": false,
+        "acceptable": false,
+        "wer": 8.0
+      },
+      {
+        "id": "C3-23",
+        "cat": "C3 noisy recogniser output",
+        "signs": "C A L L A M B U L A N C E",
+        "expected": "Call an ambulance.",
+        "output": "Call me ABC.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.667
+      },
+      {
+        "id": "C4-24",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NAME M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "The person named Mary has many names.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.75
+      },
+      {
+        "id": "C4-25",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "HELLO ME NAME S A M",
+        "expected": "Hello, my name is Sam.",
+        "output": "Hello I name sam.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.4
+      },
+      {
+        "id": "C4-26",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NEED D O C T O R",
+        "expected": "I need a doctor.",
+        "output": "I need doctor.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C4-27",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "WHERE B A T H R O O M",
+        "expected": "Where is the bathroom?",
+        "output": "Where bathroom?",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C4-28",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "YOU NAME WHAT",
+        "expected": "What is your name?",
+        "output": "You name what.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-29",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME FEEL S I C K",
+        "expected": "I feel sick.",
+        "output": "I feel sick.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C4-30",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "THANK-YOU HELP ME",
+        "expected": "Thank you for helping me.",
+        "output": "Thank you help I.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.6
+      }
+    ]
+  },
+  "llm_share_of_cases_v2": 0.267,
+  "hybrid_v3_v2_plus_faithfulness_guard": {
+    "exact_match_rate": 0.6,
+    "acceptable_match_rate": 0.6333,
+    "mean_wer": 0.2778,
+    "latency_p50_ms": 0.0,
+    "by_category": {
+      "C1 clean glosses": {
+        "n": 8,
+        "exact": 8,
+        "acceptable": 8
+      },
+      "C2 fingerspelled": {
+        "n": 7,
+        "exact": 7,
+        "acceptable": 7
+      },
+      "C3 noisy recogniser output": {
+        "n": 8,
+        "exact": 2,
+        "acceptable": 3
+      },
+      "C4 mixed glosses + fingerspelling": {
+        "n": 7,
+        "exact": 1,
+        "acceptable": 1
+      }
+    },
+    "rows": [
+      {
+        "id": "C1-01",
+        "cat": "C1 clean glosses",
+        "signs": "ME GOOD",
+        "expected": "I am good.",
+        "output": "I am good.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-02",
+        "cat": "C1 clean glosses",
+        "signs": "HOW YOU",
+        "expected": "How are you?",
+        "output": "How are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-03",
+        "cat": "C1 clean glosses",
+        "signs": "LOVE YOU",
+        "expected": "Love you.",
+        "output": "Love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-04",
+        "cat": "C1 clean glosses",
+        "signs": "HELLO HOW YOU",
+        "expected": "Hello, how are you?",
+        "output": "Hello, how are you?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-05",
+        "cat": "C1 clean glosses",
+        "signs": "ME LOVE YOU",
+        "expected": "I love you.",
+        "output": "I love you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-06",
+        "cat": "C1 clean glosses",
+        "signs": "THANK-YOU",
+        "expected": "Thank you.",
+        "output": "Thank you.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-07",
+        "cat": "C1 clean glosses",
+        "signs": "YOU GOOD",
+        "expected": "You good?",
+        "output": "You good?",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C1-08",
+        "cat": "C1 clean glosses",
+        "signs": "ME NEED HELP",
+        "expected": "I need help.",
+        "output": "I need help.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-09",
+        "cat": "C2 fingerspelled",
+        "signs": "M Y _ N A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "My name is manya.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-10",
+        "cat": "C2 fingerspelled",
+        "signs": "H E L L O",
+        "expected": "Hello.",
+        "output": "Hello.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-11",
+        "cat": "C2 fingerspelled",
+        "signs": "T H A N K S",
+        "expected": "Thanks.",
+        "output": "Thanks.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-12",
+        "cat": "C2 fingerspelled",
+        "signs": "S E E _ Y O U _ L A T E R",
+        "expected": "See you later.",
+        "output": "See you later.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-13",
+        "cat": "C2 fingerspelled",
+        "signs": "C A L L _ A _ D O C T O R",
+        "expected": "Call a doctor.",
+        "output": "Call a doctor.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-14",
+        "cat": "C2 fingerspelled",
+        "signs": "Y E S",
+        "expected": "Yes.",
+        "output": "Yes.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C2-15",
+        "cat": "C2 fingerspelled",
+        "signs": "N O _ T H A N K S",
+        "expected": "No thanks.",
+        "output": "No thanks.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-16",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L L L O",
+        "expected": "Hello.",
+        "output": "Hello!",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-17",
+        "cat": "C3 noisy recogniser output",
+        "signs": "M Y _ M A M E _ I S _ M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "My mame is manya.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C3-18",
+        "cat": "C3 noisy recogniser output",
+        "signs": "T H A N K T",
+        "expected": "Thanks.",
+        "output": "Thank you.",
+        "exact": false,
+        "acceptable": true,
+        "wer": 2.0
+      },
+      {
+        "id": "C3-19",
+        "cat": "C3 noisy recogniser output",
+        "signs": "H E L P _ N E",
+        "expected": "Help me.",
+        "output": "Help ne.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C3-20",
+        "cat": "C3 noisy recogniser output",
+        "signs": "G O O D _ N O R N I N G",
+        "expected": "Good morning.",
+        "output": "Good morning.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C3-21",
+        "cat": "C3 noisy recogniser output",
+        "signs": "I _ A N _ F I N E",
+        "expected": "I am fine.",
+        "output": "I an fine.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.333
+      },
+      {
+        "id": "C3-22",
+        "cat": "C3 noisy recogniser output",
+        "signs": "P L E A T E",
+        "expected": "Please.",
+        "output": "Pleate.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C3-23",
+        "cat": "C3 noisy recogniser output",
+        "signs": "C A L L A M B U L A N C E",
+        "expected": "Call an ambulance.",
+        "output": "Callambulance.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-24",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NAME M A N Y A",
+        "expected": "My name is Manya.",
+        "output": "I name manya.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C4-25",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "HELLO ME NAME S A M",
+        "expected": "Hello, my name is Sam.",
+        "output": "Hello I name sam.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.4
+      },
+      {
+        "id": "C4-26",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME NEED D O C T O R",
+        "expected": "I need a doctor.",
+        "output": "I need doctor.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.25
+      },
+      {
+        "id": "C4-27",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "WHERE B A T H R O O M",
+        "expected": "Where is the bathroom?",
+        "output": "Where bathroom?",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.5
+      },
+      {
+        "id": "C4-28",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "YOU NAME WHAT",
+        "expected": "What is your name?",
+        "output": "You name what.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 1.0
+      },
+      {
+        "id": "C4-29",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "ME FEEL S I C K",
+        "expected": "I feel sick.",
+        "output": "I feel sick.",
+        "exact": true,
+        "acceptable": true,
+        "wer": 0.0
+      },
+      {
+        "id": "C4-30",
+        "cat": "C4 mixed glosses + fingerspelling",
+        "signs": "THANK-YOU HELP ME",
+        "expected": "Thank you for helping me.",
+        "output": "Thank you help I.",
+        "exact": false,
+        "acceptable": false,
+        "wer": 0.6
+      }
+    ]
+  },
+  "faithfulness_guard": {
+    "llm_calls": 8,
+    "rejected": 5,
+    "log": [
+      {
+        "signs": "M Y _ N A M E _ I S _ M A N Y A",
+        "llm": "The name \"Mandy\" sounds familiar.",
+        "accepted": false
+      },
+      {
+        "signs": "H E L L L O",
+        "llm": "Hello!",
+        "accepted": true
+      },
+      {
+        "signs": "M Y _ M A M E _ I S _ M A N Y A",
+        "llm": "The man is my neighbor.",
+        "accepted": false
+      },
+      {
+        "signs": "T H A N K T",
+        "llm": "Thank you.",
+        "accepted": true
+      },
+      {
+        "signs": "G O O D _ N O R N I N G",
+        "llm": "Good morning.",
+        "accepted": true
+      },
+      {
+        "signs": "P L E A T E",
+        "llm": "The sign for \"P\" represents the letter \"P\".",
+        "accepted": false
+      },
+      {
+        "signs": "C A L L A M B U L A N C E",
+        "llm": "Call me ABC.",
+        "accepted": false
+      },
+      {
+        "signs": "ME NAME M A N Y A",
+        "llm": "The person named Mary has many names.",
+        "accepted": false
+      }
+    ]
+  },
+  "invented_content_rate": {
+    "llm": 0.5,
+    "v2": 0.233,
+    "v3_guarded": 0.133
+  }
+}

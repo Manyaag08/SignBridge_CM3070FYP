@@ -1,0 +1,116 @@
+{
+  "pipeline_A_sign_to_speech": {
+    "multi_signer": {
+      "n_messages": 30,
+      "letter_accuracy": 0.6151,
+      "message_exact_rate": 0.1667,
+      "closed_loop_heard_wer_capped": 0.8139,
+      "per_frame_accuracy": 0.7625,
+      "frames_above_0.55_confidence": 0.9764,
+      "per_signer_message_exact": {
+        "O": 0.2,
+        "SA": 0.133
+      }
+    },
+    "multi_signer_calibrated_k5_revised_temp": {
+      "n_messages": 30,
+      "letter_accuracy": 0.6121,
+      "message_exact_rate": 0.2,
+      "closed_loop_heard_wer_capped": 0.8167,
+      "per_frame_accuracy": 0.9165,
+      "frames_above_0.55_confidence": 0.833,
+      "per_signer_message_exact": {
+        "O": 0.333,
+        "SA": 0.067
+      }
+    },
+    "multi_signer_calibrated_k5_shipped_temp": {
+      "n_messages": 30,
+      "letter_accuracy": 0.1148,
+      "message_exact_rate": 0.0,
+      "closed_loop_heard_wer_capped": 1.0,
+      "per_frame_accuracy": 0.7699,
+      "frames_above_0.55_confidence": 0.1713,
+      "per_signer_message_exact": {
+        "O": 0.0,
+        "SA": 0.0
+      }
+    },
+    "single_signer": {
+      "n_messages": 15,
+      "letter_accuracy": 0.2001,
+      "message_exact_rate": 0.0,
+      "closed_loop_heard_wer_capped": 0.9833,
+      "per_frame_accuracy": 0.4466,
+      "frames_above_0.55_confidence": 0.8951,
+      "per_signer_message_exact": {
+        "SA": 0.0
+      }
+    },
+    "single_signer_calibrated_k5_revised_temp": {
+      "n_messages": 15,
+      "letter_accuracy": 0.3514,
+      "message_exact_rate": 0.0667,
+      "closed_loop_heard_wer_capped": 0.8611,
+      "per_frame_accuracy": 0.8054,
+      "frames_above_0.55_confidence": 0.6878,
+      "per_signer_message_exact": {
+        "SA": 0.067
+      }
+    },
+    "improved_segment": {
+      "n_messages": 30,
+      "letter_accuracy": 0.9815,
+      "message_exact_rate": 0.9333,
+      "wrong_spoken_rate": 0.0667,
+      "repeat_request_rate": 0.0,
+      "closed_loop_heard_wer_spoken_only": 0.1111,
+      "decode_ms_p50": 1.72,
+      "per_signer_message_exact": {
+        "O": 1.0,
+        "SA": 0.867
+      }
+    },
+    "improved_vote": {
+      "n_messages": 30,
+      "letter_accuracy": 0.8697,
+      "message_exact_rate": 0.6333,
+      "wrong_spoken_rate": 0.2333,
+      "repeat_request_rate": 0.1333,
+      "closed_loop_heard_wer_spoken_only": 0.2885,
+      "decode_ms_p50": 1.25,
+      "per_signer_message_exact": {
+        "O": 0.933,
+        "SA": 0.333
+      }
+    },
+    "baseline_wrong_spoken_rate": 0.7667,
+    "latency_ms_p50": {
+      "mediapipe_per_frame": 23.69,
+      "classifier_per_frame": 0.0023,
+      "smoother": 24.1,
+      "smoother_p95": 2110.4,
+      "tts_synthesis": 528.3,
+      "whisper_closed_loop_check": 281.4,
+      "compute_sign_to_speech_excl_hold": 576.1
+    },
+    "interaction_time_s_mean": 9.69
+  },
+  "pipeline_B_speech_to_sign": {
+    "n_utterances": 40,
+    "stt_wer": 0.0271,
+    "tone_accuracy_vs_author_label": 0.85,
+    "avatar_plan_identical_to_plan_from_reference_text": 0.875,
+    "avatar_lexical_sign_share": 0.4615,
+    "avatar_fingerspelled_letters": 393,
+    "avatar_roundtrip_letter_accuracy_multisigner_reader": 1.0,
+    "avatar_roundtrip_letter_accuracy_single_signer_reader": 1.0,
+    "avatar_to_speech_duration_ratio_mean": 4.4,
+    "latency_ms_p50": {
+      "whisper": 275.4,
+      "tone": 18.7,
+      "avatar_plan": 0.034,
+      "compute_speech_to_caption_tone_plan": 294.1
+    }
+  }
+}

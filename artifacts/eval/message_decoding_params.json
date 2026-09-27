@@ -1,0 +1,104 @@
+{
+  "validation": "20 messages x 2 plays, ASLNow! participants (held out), calibrated k=5, temp 0.1",
+  "objective": "exact - 2 x wrong spoken",
+  "table": {
+    "vote_0.5": {
+      "no_decoder": {
+        "exact": 0.15,
+        "wrong_spoken": 0.85,
+        "repeat_request": 0.0,
+        "objective": -1.55
+      },
+      "best_decoder": {
+        "exact": 0.425,
+        "wrong_spoken": 0.45,
+        "repeat_request": 0.125,
+        "objective": -0.475,
+        "params": {
+          "freq_weight": 1.0,
+          "indel_penalty": 1.5,
+          "keep_raw_margin": 2.0,
+          "min_letter_logp": -1.204
+        }
+      }
+    },
+    "vote_0.6": {
+      "no_decoder": {
+        "exact": 0.075,
+        "wrong_spoken": 0.925,
+        "repeat_request": 0.0,
+        "objective": -1.775
+      },
+      "best_decoder": {
+        "exact": 0.2,
+        "wrong_spoken": 0.475,
+        "repeat_request": 0.325,
+        "objective": -0.75,
+        "params": {
+          "freq_weight": 1.0,
+          "indel_penalty": 1.5,
+          "keep_raw_margin": 4.0,
+          "min_letter_logp": -1.204
+        }
+      }
+    },
+    "vote_0.7": {
+      "no_decoder": {
+        "exact": 0.05,
+        "wrong_spoken": 0.95,
+        "repeat_request": 0.0,
+        "objective": -1.85
+      },
+      "best_decoder": {
+        "exact": 0.125,
+        "wrong_spoken": 0.65,
+        "repeat_request": 0.225,
+        "objective": -1.175,
+        "params": {
+          "freq_weight": 1.0,
+          "indel_penalty": 1.5,
+          "keep_raw_margin": 2.0,
+          "min_letter_logp": -1.204
+        }
+      }
+    },
+    "segment": {
+      "no_decoder": {
+        "exact": 0.775,
+        "wrong_spoken": 0.225,
+        "repeat_request": 0.0,
+        "objective": 0.325
+      },
+      "best_decoder": {
+        "exact": 1.0,
+        "wrong_spoken": 0.0,
+        "repeat_request": 0.0,
+        "objective": 1.0,
+        "params": {
+          "freq_weight": 0.25,
+          "indel_penalty": 1.5,
+          "keep_raw_margin": 2.0,
+          "min_letter_logp": -1.8971
+        }
+      }
+    }
+  },
+  "chosen": {
+    "typing": "segment",
+    "decoder": {
+      "freq_weight": 0.25,
+      "indel_penalty": 1.5,
+      "keep_raw_margin": 2.0,
+      "min_letter_logp": -1.8971
+    }
+  },
+  "chosen_vote": {
+    "agree": 0.5,
+    "decoder": {
+      "freq_weight": 1.0,
+      "indel_penalty": 1.5,
+      "keep_raw_margin": 2.0,
+      "min_letter_logp": -1.204
+    }
+  }
+}

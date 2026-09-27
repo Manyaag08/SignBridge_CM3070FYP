@@ -1,0 +1,42 @@
+# Full end-to-end browser integration test — passing run
+# Regenerate with: SIGNBRIDGE_FAKE_MODELS=1 python -m uvicorn backend.app:app --port 8130 &
+#                  CHROMIUM=/path/to/chrome node tests/e2e/e2e_call.mjs http://localhost:8130 artifacts/screenshots
+tests/e2e/e2e_call.mjs — run 2026-09-27 15:56, two headless Google Chrome instances (macOS) against the real FastAPI backend
+(SIGNBRIDGE_FAKE_MODELS=1: Whisper, tone tagger and LLM stubbed; fake camera and fake microphone audio)
+
+PASS backend reachable from the page  -  Engine online
+PASS the app opens on the feature/role-selection landing screen
+PASS the landing page shows the signing library before any role is picked
+PASS the landing library lists all 26 letters  -  26 letters
+PASS picking a role switches to the video-call screen
+PASS the role badge reflects the choice
+PASS the signer's screen shows the camera/composer tools
+PASS the signer's screen hides the microphone tools
+PASS the speaker's screen shows the microphone tools
+PASS the speaker's screen hides the camera/composer tools
+PASS the avatar is shown on both screens
+PASS only the signer gets the avatar in the call; the speaker's is a testing preview below it
+PASS the avatar heading says which side's speech it's signing
+PASS the avatar sits in the call frame's side panel
+PASS the avatar panel does not overlap the video
+PASS the letter/confidence detection readout sits in the practice window
+PASS the typed-message composer sits inside the video-call frame
+PASS the speech transcript sits inside the video-call frame
+PASS WebRTC data channel opens on both sides
+PASS A's camera video arrives on B over the peer connection  -  2 track(s)
+PASS typed letters render in the message bar  -  HELP
+PASS decoder + smoother turn HELP into a sentence and speak it  -  ✓ Sent to your partner: “Help.”
+PASS the sentence reaches the hearing caller over the data channel  -  Partner signed“Help.”
+PASS a paused signer's message is sent and spoken to the hearing caller automatically
+PASS the composer clears once the sentence is sent
+PASS an unclear word makes the app ask to repeat, not guess  -  ↻ Please sign word 1 again — “AAA” was not clear, so nothing was sent. Please repeat it.
+PASS nothing was sent to the other caller when the word was unclear
+PASS the browser's own voice-activity detector and WAV encoder produce an utterance
+PASS the utterance was transcribed and tagged with a tone  -  {"text":"hello how are you","tone":"neutral","score":0.9,"ms":2.2000000029802322,"row":"ref: <Node>"}
+PASS the transcript reaches the Deaf signer as a captioned, tagged message  -  You signed“Help.”You signed“Help.”Partner said“hello how are you” neutral
+PASS the signing avatar, in its own panel, plans and announces the caption  -  Signing “hello how are you” · 3.4 s
+PASS practice only says "Matched" once the target phrase is actually signed  -  {"wrong":"Not matched — that read as “Good.”","right":"✓ Matched — “How are you?”","typed":""}
+PASS practising on the speaker's screen types and sends nothing
+PASS the data-channel ping/pong round trip is measured  -  Latency 1 ms
+PASS "change role" leaves the call and returns to the feature-selection screen
+35 passed, 0 failed

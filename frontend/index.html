@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SignBridge — Real-time sign language and speech calls</title>
+<meta name="description" content="SignBridge lets a signer and a speaker hold a live video call, translating sign language to speech and speech to sign in real time, entirely on your own device."/>
+<meta name="theme-color" content="#070b10"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2314b8a6'/%3E%3Cpath d='M7 21c3-8 15-8 18 0' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='7' cy='21' r='2.6' fill='%23fff'/%3E%3Ccircle cx='25' cy='21' r='2.6' fill='%23fff'/%3E%3C/svg%3E"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"/>
+<link rel="stylesheet" href="css/app.css?v=9"/>
+</head>
+<body>
+
+<!-- ===================== TOP NAVIGATION ===================== -->
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a class="brand" href="#" aria-label="SignBridge home">
+      <span class="brandmark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M7 21c3-8 15-8 18 0" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="7" cy="21" r="2.6" fill="currentColor"/><circle cx="25" cy="21" r="2.6" fill="currentColor"/></svg>
+      </span>
+      <span class="brandname">Sign<b>Bridge</b></span>
+    </a>
+    <div class="navlinks landing-only">
+      <a href="#how">How it works</a>
+      <a href="#library">Sign library</a>
+    </div>
+    <span class="spacer"></span>
+    <span class="chip loading" id="backendChip">Checking engine…</span>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- ===================== SCREEN 1: LANDING / ROLE SELECTION ===================== -->
+  <div class="screen on" id="screen-landing">
+
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span>Real-time sign language ⇄ speech</div>
+      <h1 class="hero-title">Every conversation,<br><span class="grad">in sign or in speech.</span></h1>
+      <p class="hero-sub">SignBridge connects a signer and a speaker on a live video call. Signs become spoken
+        sentences, speech becomes captions and an animated signing avatar — all translated in real time, on your
+        own device.</p>
+      <div class="trustrow">
+        <span class="trust"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"/></svg>Private by design — nothing leaves your machine</span>
+        <span class="trust"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg>Instant, two-way translation</span>
+        <span class="trust"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Adapts to your own signing</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2 class="section-title">How will you join the call?</h2>
+        <p class="section-sub">Pick your side of the conversation. You can switch at any time.</p>
+      </div>
+      <div class="rolegrid">
+        <div class="rolecard sign">
+          <div class="rolecard-top">
+            <div class="roleicon" aria-hidden="true">🤟</div>
+            <span class="roletag">Sign → Speech</span>
+          </div>
+          <h2>I sign</h2>
+          <p>Sign naturally in front of your camera. SignBridge recognises your fingerspelling and signs, turns
+            them into a clear sentence and speaks it aloud to your partner. Their replies reach you as captions
+            and an animated signing avatar.</p>
+          <ul class="checks">
+            <li>Letters, words and common phrases from your camera</li>
+            <li>Personal calibration that learns your hands</li>
+            <li>Your partner's speech signed back to you</li>
+          </ul>
+          <button class="primary lg" id="roleSignBtn">Continue as a signer</button>
+        </div>
+        <div class="rolecard speech">
+          <div class="rolecard-top">
+            <div class="roleicon" aria-hidden="true">🎙️</div>
+            <span class="roletag">Speech → Sign</span>
+          </div>
+          <h2>I speak</h2>
+          <p>Talk as you normally would. Your voice is transcribed on this device, shown as live captions with a
+            tone indicator, and signed to your Deaf or hard-of-hearing partner. When they sign back, you hear it
+            spoken aloud.</p>
+          <ul class="checks">
+            <li>Live, private speech-to-text captions</li>
+            <li>Tone detection for clearer context</li>
+            <li>Your partner's signing spoken aloud automatically</li>
+          </ul>
+          <button class="primary lg" id="roleSpeechBtn">Continue as a speaker</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="section-head">
+        <h2 class="section-title">How it works</h2>
+        <p class="section-sub">Three steps, both directions, one call.</p>
+      </div>
+      <div class="howgrid">
+        <div class="howcard">
+          <div class="hownum">01</div>
+          <h3>Recognise</h3>
+          <p>Hand tracking follows 21 points on each hand while a trained classifier reads letters, signs and
+            phrases — straight from your webcam, in the browser.</p>
+        </div>
+        <div class="howcard">
+          <div class="hownum">02</div>
+          <h3>Understand</h3>
+          <p>A dictionary check and sentence smoother turn raw signs into natural English. If a word isn't
+            clear, SignBridge asks you to repeat it instead of guessing.</p>
+        </div>
+        <div class="howcard">
+          <div class="hownum">03</div>
+          <h3>Communicate</h3>
+          <p>Sentences are spoken to your partner, and their speech returns as captions and signing — over a
+            direct, peer-to-peer video call.</p>
+        </div>
+      </div>
+
+      <details class="techdetails">
+        <summary>Under the hood</summary>
+        <div class="techgrid">
+          <div>
+            <h4>Adapting to every signer</h4>
+            <p>Each signer profile mirrors left-handed signing into the orientation the model was trained on and
+              stores a few examples of your own hand shapes. At run time the model's predictions are blended with
+              your personal examples — the <b>Personalisation</b> slider controls that blend, and uncalibrated
+              letters simply use the base model.</p>
+          </div>
+          <div>
+            <h4>Built-in signs and phrases</h4>
+            <p>Both hands are tracked. Eight signs — ME, YOU, GOOD, LOVE, HOW, ILY, HELLO and YES — are detected
+              from hand shape, depth and movement with no training needed. A small grammar reads them in ASL order,
+              so ME → GOOD becomes “I am good.” and HOW → YOU becomes “How are you?”. You can also record your own
+              phrases with three short takes each.</p>
+          </div>
+          <div>
+            <h4>The signing avatar</h4>
+            <p>Incoming text is planned into ASL word order: articles and “is/are” are dropped, words in the
+              sign lexicon are animated as signs and everything else is fingerspelled, with motion for J and Z.</p>
+          </div>
+          <div>
+            <h4>Checked before it's spoken</h4>
+            <p>A dictionary decoder scores each word against the classifier's letter-by-letter confidence and
+              word frequency. Only once every word resolves is the sentence polished — by a local language model
+              when available — and spoken.</p>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="section" id="library">
+      <div class="section-head">
+        <h2 class="section-title">Sign library</h2>
+        <p class="section-sub">Everything SignBridge recognises out of the box. Signers can calibrate each letter to
+          their own hands from the call screen.</p>
+      </div>
+      <div class="card landinglib">
+        <div class="landinglibgrid">
+          <div>
+            <div class="phsec">Fingerspelling alphabet</div>
+            <div class="reflib"><div class="refgrid" id="landingRefgrid"></div></div>
+          </div>
+          <div>
+            <div class="phlist">
+              <div class="phsec">Built-in phrases</div>
+              <div id="landingBilist"></div>
+              <div class="phsec">Built-in signs</div>
+              <div id="landingGlosslist"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="brand small"><span class="brandmark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M7 21c3-8 15-8 18 0" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="7" cy="21" r="2.6" fill="currentColor"/><circle cx="25" cy="21" r="2.6" fill="currentColor"/></svg></span><span class="brandname">Sign<b>Bridge</b></span></div>
+      <p>Real-time two-way sign language and speech communication. Runs locally — your video and audio stay on
+        your device. SignBridge supports conversation; it is not a replacement for a qualified interpreter.</p>
+    </footer>
+  </div>
+
+  <!-- ===================== SCREEN 2: VIDEO CALL ===================== -->
+  <div class="screen" id="screen-call">
+    <div class="callbar">
+      <button class="ghost" id="changeRoleBtn">← Change role</button>
+      <span class="rolebadge" id="roleBadge">—</span>
+      <span class="spacer"></span>
+      <div class="roomfield">
+        <label for="roomInput">Room</label>
+        <input type="text" id="roomInput" value="demo" aria-label="Room name — both people must enter the same one">
+      </div>
+      <button class="primary" id="joinBtn">Join call</button>
+      <button class="danger" id="leaveBtn" style="display:none">Leave call</button>
+      <div class="callmeta">
+        <div class="status" id="callStatus"><span class="dot"></span>Not connected</div>
+        <span class="mini" id="callRtt">Latency —</span>
+      </div>
+    </div>
+
+    <!-- ---- the call frame: partner video + your own camera (one shared stream) on the left, avatar and
+         conversation in a side panel on the right, the role's composer underneath the video ---- -->
+    <div class="card callframe">
+      <h2 class="sr-only">Video call</h2>
+      <div class="callstage">
+        <div class="videoarea">
+          <div class="stage-empty" aria-hidden="true">
+            <div class="stage-empty-icon"><svg viewBox="0 0 24 24"><path d="M15 10l5-3v10l-5-3M3 7h12v10H3z"/></svg></div>
+            <b>Waiting for your partner</b>
+            <span>Enter the same room name on both devices and press <em>Join call</em>.</span>
+          </div>
+          <video id="remoteVideo" autoplay playsinline></video>
+          <div class="stage-label remote">Partner</div>
+
+          <!-- your own camera: the very same stream that is sent to the call and read for signs -->
+          <div class="pip pip-local">
+            <div class="pipfill">
+              <video id="localVideo" autoplay playsinline muted></video>
+              <div class="pip-off" id="pipOff">Camera off</div>
+            </div>
+            <div class="stage-label local">You</div>
+            <div class="pip-live role-only-sign" id="pipLive"></div>
+          </div>
+        </div>
+
+        <!-- side panel: signing avatar + conversation -->
+        <aside class="sidepanel" id="sidePanel">
+          <div class="sidecard avatarcard">
+            <div class="sidecard-title" id="avatarTitle">Partner's speech, signed for you</div>
+            <canvas id="avatar" width="360" height="270"></canvas>
+            <div class="avplan" id="avplan"></div>
+            <div class="avctl">
+              <input type="text" id="avText" placeholder="Type something to sign…">
+              <button class="blue" id="avBtn">Sign</button>
+            </div>
+            <div class="avctl2">
+              <label class="chk"><input type="checkbox" id="avAuto" checked> Auto-sign</label>
+              <span class="avspeed"><span class="mini">Speed</span><input type="range" id="avSpeed" min="50" max="200" value="100" aria-label="Avatar signing speed"></span>
+            </div>
+            <div class="status" id="avStatus"><span class="dot"></span>Ready</div>
+          </div>
+          <div class="sidecard convocard">
+            <div class="sidecard-title">Conversation</div>
+            <div class="remotemsgs" id="remoteMsgs"></div>
+          </div>
+        </aside>
+
+        <!-- composer, signer: what's being signed, sent automatically when you pause during a call -->
+        <div class="composerbar role-only-sign">
+          <div class="banner" id="banner"><small>Recognised</small><span id="bannerTxt"></span></div>
+          <div class="gloss" id="gloss">signs: —</div>
+          <div class="typedbox"><span id="typed"></span><span class="caret">▏</span></div>
+          <div class="autobar" id="autoBar"><i></i></div>
+          <div class="mini smoothed" id="smoothed"></div>
+          <div class="row">
+            <button class="primary" id="startBtn">Start camera</button>
+            <button id="spaceBtn">Space</button>
+            <button id="backBtn" title="Backspace" aria-label="Backspace">⌫</button>
+            <button id="clearBtn">Clear</button>
+            <label class="chk autosend" title="During a call, your message is sent and spoken to your partner automatically when you pause signing"><input type="checkbox" id="autoSendChk" checked> Auto-speak when I pause</label>
+            <button class="blue push" id="speakBtn">🔊 Speak now</button>
+          </div>
+          <div class="status" id="status"><span class="dot"></span>Camera off</div>
+        </div>
+
+        <!-- composer, speaker: live captions of your own speech + microphone controls -->
+        <div class="composerbar role-only-speech">
+          <h2>Your speech <span class="pill" id="srpill">Off</span></h2>
+          <div class="transcript" id="transcript"><span class="interim">Press “Start speaking” and talk…</span></div>
+          <div class="miclevel"><i id="micLevel"></i></div>
+          <div class="row" style="align-items:center">
+            <button class="blue" id="micBtn">Start speaking</button>
+            <button id="clearSpeech">Clear</button>
+            <span class="mini" style="margin-left:auto">Language</span>
+            <select id="langSel">
+              <option value="en">English</option><option value="es">Spanish</option>
+              <option value="fr">French</option><option value="auto">Auto-detect</option>
+            </select>
+          </div>
+          <div class="status" id="srstatus"><span class="dot"></span>Microphone off</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- speaker only: a testing preview of how their speech is signed (the avatar lives here, not in the call) ---- -->
+    <div class="card avatar-preview role-only-speech">
+      <div class="practice-head">
+        <div>
+          <h2>Signing preview</h2>
+          <p class="hint">For testing only — see how your speech is turned into sign language for your partner. Your
+            partner sees this signing on their screen during the call.</p>
+        </div>
+      </div>
+      <div class="avatar-preview-slot" id="avatarPreviewSlot"></div>
+    </div>
+
+    <!-- ---- learn & practise (both roles): the detection view on the same camera, an avatar demonstration and a
+         target letter / sign / phrase that only reports "Matched" once the recogniser actually reads it ---- -->
+    <div class="card practice">
+      <div class="practice-head">
+        <div>
+          <h2>Learn &amp; practise sign language</h2>
+          <p class="hint">Pick a letter, sign or phrase, watch the avatar show it, then try it yourself on camera.
+            SignBridge only says <b>Matched</b> once it genuinely recognises what you signed.
+            <span class="role-only-speech">Practising here never sends anything to your call partner.</span></p>
+        </div>
+        <div class="practice-actions">
+          <span class="streak" id="pracStreak">0 matched</span>
+          <button class="primary" id="pracCamBtn">Start camera</button>
+        </div>
+      </div>
+      <div class="practicegrid">
+        <div class="practice-cam">
+          <video id="video" playsinline muted></video>
+          <canvas id="canvas" width="640" height="480"></canvas>
+          <div class="overlay-msg" id="overlay">Press <b>&nbsp;Start camera&nbsp;</b> to see hand tracking.</div>
+          <div class="bigcount" id="bigcount"></div>
+        </div>
+        <div class="practice-readout">
+          <div class="mini upper">Detected</div>
+          <div class="readout">
+            <div class="letter low" id="letter">·</div>
+            <div class="conflabel"><span>Confidence</span><span id="confpct">0%</span></div>
+            <div class="bar-c"><i id="confbar"></i></div>
+            <div class="top3" id="top3"><div class="chip"><b>–</b>—</div><div class="chip"><b>–</b>—</div><div class="chip"><b>–</b>—</div></div>
+            <div class="hand2" id="hand2">Second hand: <b>–</b> <span id="h2conf">—</span></div>
+          </div>
+        </div>
+        <div class="practice-target" id="pracTarget">
+          <div class="segmented" id="pracModes">
+            <button class="on" data-mode="letters">Letters</button>
+            <button data-mode="signs">Signs</button>
+            <button data-mode="phrases">Phrases</button>
+          </div>
+          <div class="target-row">
+            <button class="btn-s" id="pracPrev" aria-label="Previous">‹</button>
+            <div class="target-letter" id="pracLetter">A</div>
+            <button class="btn-s" id="pracNext" aria-label="Next">›</button>
+          </div>
+          <div class="target-how" id="pracHow"></div>
+          <div class="target-glyph" id="pracGlyph"></div>
+          <div class="target-feedback" id="pracFeedback">Not matched yet</div>
+          <div class="target-progress"><i id="pracHold"></i></div>
+        </div>
+        <div class="practice-demo">
+          <div class="mini upper">Avatar demonstration</div>
+          <canvas id="pracAvatar" width="360" height="270"></canvas>
+          <button class="blue" id="pracShow">▶ Show me</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- role: sign — signer profile, library and calibration (advanced settings, not part of the live call view) ---- -->
+    <div class="role-only-sign">
+      <details class="drawer">
+        <summary><span>Signer settings</span><span class="drawer-sub">Profile, sign library &amp; calibration</span></summary>
+        <div class="drawerbody">
+        <div class="bar">
+          <div class="barcell">
+            <label class="h">Signer profile</label>
+            <div class="line">
+              <select id="profSel" style="flex:1"></select>
+              <button class="btn-s" id="profNew" title="New profile" aria-label="New profile">+</button>
+              <button class="btn-s" id="profDel" title="Delete profile" aria-label="Delete profile">🗑</button>
+            </div>
+            <div class="mini" id="profInfo">—</div>
+          </div>
+          <div class="barcell">
+            <label class="h">Recognition model</label>
+            <div class="line">
+              <select id="modelSel" style="flex:1">
+                <option value="multi">Multi-signer</option>
+                <option value="single">Single-signer</option>
+              </select>
+            </div>
+            <div class="mini" id="modelInfo">Recommended — trained on many signers for the best accuracy on new hands.</div>
+          </div>
+          <div class="barcell">
+            <label class="h">Signing hand</label>
+            <div class="line">
+              <select id="handSel" style="flex:1">
+                <option value="right">Right hand</option>
+                <option value="left">Left hand (mirrored)</option>
+              </select>
+            </div>
+            <div class="mini">Left-handed signing is mirrored automatically.</div>
+          </div>
+          <div class="barcell">
+            <label class="h">Personalisation <span class="mini" id="persVal">60%</span></label>
+            <input type="range" id="persRange" min="0" max="100" value="60">
+            <div class="mini" id="persInfo">0 / 26 letters calibrated</div>
+          </div>
+          <div class="barcell">
+            <label class="h">Phrase sensitivity <span class="mini" id="tauVal">0.22</span></label>
+            <input type="range" id="tauRange" min="6" max="45" value="22">
+            <div class="mini" id="tauInfo">Best live match: —</div>
+          </div>
+          <div class="barcell wide">
+            <label class="h">Options</label>
+            <label class="chk"><input type="checkbox" id="mirrorChk" checked> Mirror video (selfie view)</label>
+            <label class="chk"><input type="checkbox" id="builtinChk" checked> Built-in signs &amp; phrases</label>
+            <label class="chk"><input type="checkbox" id="ttsChk" checked> Speak recognised phrases</label>
+          </div>
+          <div class="barcell">
+            <label class="h">Profile data</label>
+            <div class="line">
+              <button class="btn-s" id="expBtn">Export</button>
+              <button class="btn-s" id="impBtn">Import</button>
+              <input type="file" id="impFile" accept="application/json" hidden>
+            </div>
+            <div class="mini">Back up or move a profile as a JSON file.</div>
+          </div>
+        </div>
+
+        <div class="drawergrid">
+          <div class="card">
+            <div class="tabs">
+              <div class="tab on" data-tab="letters">Letters</div>
+              <div class="tab" data-tab="phrases">Phrases</div>
+            </div>
+
+            <div class="pane on" id="pane-letters">
+              <p class="hint">The fingerspelling alphabet. Select a letter to calibrate it — the badge shows how many
+                samples you've recorded.</p>
+              <div class="reflib"><div class="refgrid" id="refgrid"></div></div>
+            </div>
+
+            <div class="pane" id="pane-phrases">
+              <p class="hint">Built-in phrases are sequences of built-in signs — make each sign in turn, within about
+                2.5 seconds. For better accuracy on your own hands, record your own version with three short takes.</p>
+              <div class="phlist">
+                <div class="phsec">Built-in phrases</div>
+                <div id="bilist"></div>
+                <div class="phsec">Built-in signs</div>
+                <div id="glosslist"></div>
+                <div class="phsec">Your recorded phrases</div>
+                <div id="rclist"></div>
+                <div class="addrow">
+                  <input type="text" id="newPhrase" placeholder="Add your own phrase…">
+                  <button class="btn-s" id="addPhrase">Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h2>Calibrate your signing</h2>
+            <p class="hint">Hold your version of a letter steady and capture a short burst of frames. Your samples are
+              blended with the model using the <b>Personalisation</b> setting, so SignBridge adapts to you without
+              retraining.</p>
+            <div class="calpad">
+              <div class="row" style="margin-top:0">
+                <select id="calLetter"></select>
+                <button class="primary" id="calBtn">Capture 12 frames</button>
+              </div>
+              <div class="row">
+                <button class="btn-s" id="calClear">Clear this letter</button>
+                <button class="btn-s" id="calClearAll">Clear all letters</button>
+              </div>
+              <div class="status" id="calStatus"><span class="dot"></span>No samples yet</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</main>
+
+
+<!-- third-party runtime libraries (loaded from a CDN on first run) -->
+<script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.30.0/dist/ort.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+<!-- SignBridge application code, in dependency order (classic scripts sharing one global scope) -->
+<script src="js/00-constants.js?v=7"></script>
+<script src="js/api.js?v=7"></script>
+<script src="js/01-profiles.js?v=7"></script>
+<script src="js/02-features.js?v=7"></script>
+<script src="js/03-classifier.js?v=7"></script>
+<script src="js/04-glosses.js?v=7"></script>
+<script src="js/05-phrases.js?v=7"></script>
+<script src="js/06-composer.js?v=7"></script>
+<script src="js/07-library-ui.js?v=7"></script>
+<script src="js/08-profile-ui.js?v=7"></script>
+<script src="js/09-calibration.js?v=7"></script>
+<script src="js/10-recording.js?v=7"></script>
+<script src="js/11-main-loop.js?v=8"></script>
+<script src="js/call.js?v=8"></script>
+<script src="js/12-speech.js?v=7"></script>
+<script src="js/13-model-select.js?v=7"></script>
+<script src="js/14-avatar.js?v=7"></script>
+<script src="js/17-practice.js?v=8"></script>
+<script src="js/16-roles.js?v=7"></script>
+<script src="js/15-boot.js?v=7"></script>
+</body>
+</html>

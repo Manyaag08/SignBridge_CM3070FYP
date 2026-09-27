@@ -1,0 +1,61 @@
+signer,config,message,typed,decoded,sentence,heard,exact,wrong_spoken,repeat_request,letter_accuracy,heard_wer,decode_ms,tts_ms
+SA,improved_vote,HI,HI,HI(unclear),[please repeat],,False,False,True,1.0,,388.3940420000016,
+SA,improved_segment,HI,HI,HI(word),Hi.,Hi.,True,False,False,1.0,0.0,0.12041600000145536,515.0250840000012
+SA,improved_vote,HELLO,HLLO,HELLO(word),Hello.,Hello.,True,False,False,0.8,0.0,1.2157919999964406,519.519541000001
+SA,improved_segment,HELLO,HELLO,HELLO(word),Hello.,Hello.,True,False,False,1.0,0.0,1.8649999999951206,539.291334000005
+SA,improved_vote,YES,YE,YE(word),Ye.,You,False,True,False,0.6667,1.0,0.29841700000332594,522.1912909999986
+SA,improved_segment,YES,YES,YES(word),Yes.,Yes.,True,False,False,1.0,0.0,0.48779200000126366,525.0184589999947
+SA,improved_vote,NO,O,TO(word),To.,2,False,True,False,0.5,1.0,0.10274999999637657,529.119417000004
+SA,improved_segment,NO,NO,NO(word),No.,No.,True,False,False,1.0,0.0,0.2920000000017353,530.5165839999972
+SA,improved_vote,HELP,HELP,HELP(word),Help.,held.,True,False,False,1.0,1.0,0.9292089999988207,531.1574169999958
+SA,improved_segment,HELP,HELP,HELP(word),Help.,held.,True,False,False,1.0,1.0,1.1463330000012206,521.2205840000053
+SA,improved_vote,THANKS,THAK,THANK(word),Thank.,Thank you.,False,True,False,0.6667,1.0,0.9061250000002019,522.1293339999988
+SA,improved_segment,THANKS,THANKS,THANKS(word),Thanks.,Thanks.,True,False,False,1.0,0.0,2.3189580000035903,521.2544999999977
+SA,improved_vote,GOOD,GOO,GO(word),Go.,Go!,False,True,False,0.75,1.0,0.6676660000124457,525.3781250000031
+SA,improved_segment,GOOD,GOOD,GOOD(word),Good.,Good.,True,False,False,1.0,0.0,0.8374170000138292,522.152540999997
+SA,improved_vote,SORRY,OY,OY(unclear),[please repeat],,False,False,True,0.4,,0.2814169999965088,
+SA,improved_segment,SORRY,SOURY,SORRY(word),Sorry.,Sorry.,True,False,False,0.8,0.0,1.8316249999941192,520.2237080000032
+SA,improved_vote,PLEASE WAIT,PLASE WAIT,PLEASE(word) WAIT(word),Please wait.,Please wait.,True,False,False,0.9091,0.0,2.136916000011979,525.5290420000023
+SA,improved_segment,PLEASE WAIT,PLEASE WAIT,PLEASE(word) WAIT(word),Please wait.,Please wait.,True,False,False,1.0,0.0,2.6356250000105774,517.7996660000019
+SA,improved_vote,CALL A DOCTOR,CALL A DOCTO,CALL(word) A(word) DOCTOR(word),Call a doctor.,Call a doctor.,True,False,False,0.9231,0.0,2.326042000007078,527.0767920000026
+SA,improved_segment,CALL A DOCTOR,CALL A DOCTOU,CALL(word) A(word) DOCTOR(word),Call a doctor.,Call a doctor.,True,False,False,0.9231,0.0,3.520958000009955,521.3401249999947
+SA,improved_vote,MY NAME IS ANNA,MY AM I AA,MY(word) AM(unclear) I(word) AA(unclear),[please repeat],,False,False,True,0.6667,,0.5145410000011452,
+SA,improved_segment,MY NAME IS ANNA,MY NAME IS ANNA,MY(word) NAME(word) IS(word) ANNA(word),My name is anna.,My name is Anna.,True,False,False,1.0,0.0,1.5631249999898955,534.276583999997
+SA,improved_vote,SEE YOU LATER,SEE YU LATE,SEE(word) YOU(word) LATE(word),See you late.,See you later.,False,True,False,0.8462,0.0,1.2348749999944175,522.7509160000068
+SA,improved_segment,SEE YOU LATER,SEE YOU LATEU,SEE(word) YOU(word) LATER(word),See you later.,See you later.,True,False,False,0.9231,0.0,2.6732919999972182,525.5202080000032
+SA,improved_vote,I FEEL SICK,I FEL SICH,I(word) FEEL(word) SICK(word),I feel sick.,I feel sick.,True,False,False,0.8182,0.0,1.2038750000016307,533.0584170000066
+SA,improved_segment,I FEEL SICK,I FEEL SICH,I(word) FEEL(word) ICH(word),I feel ich.,I feel it.,False,True,False,0.9091,0.3333,1.4614590000121552,546.9357090000102
+SA,improved_vote,WATER PLEASE,WAT PLEA,AT(word) PLEA(word),At plea.,at plea.,False,True,False,0.6667,1.0,1.2273330000027727,525.8440829999955
+SA,improved_segment,WATER PLEASE,WATER PLEASE,WATER(word) PLEASE(word),Water please.,Water please.,True,False,False,1.0,0.0,3.24395799999877,527.0620420000114
+SA,improved_vote,THANK YOU,THAH YU,THAH(raw) YOU(word),Thah you.,for you.,False,True,False,0.6667,0.5,1.2283749999966176,525.0747919999981
+SA,improved_segment,THANK YOU,THANH YOU,THAN(word) YOU(word),Than you.,The new.,False,True,False,0.8889,1.0,1.7836669999979904,523.912542000005
+O,improved_vote,HI,HI,HI(unclear),[please repeat],,False,False,True,1.0,,0.28958300001136195,
+O,improved_segment,HI,HI,HI(word),Hi.,Hi.,True,False,False,1.0,0.0,0.12370799998961957,525.086167000012
+O,improved_vote,HELLO,HELLO,HELLO(word),Hello.,Hello.,True,False,False,1.0,0.0,2.0290420000037557,521.4886669999999
+O,improved_segment,HELLO,HELLO,HELLO(word),Hello.,Hello.,True,False,False,1.0,0.0,1.3521669999931873,525.0844580000091
+O,improved_vote,YES,YES,YES(word),Yes.,Yes.,True,False,False,1.0,0.0,0.9394170000120994,522.497125000001
+O,improved_segment,YES,YES,YES(word),Yes.,Yes.,True,False,False,1.0,0.0,0.5288749999863285,522.0730829999809
+O,improved_vote,NO,NO,NO(word),No.,No.,True,False,False,1.0,0.0,0.3107089999900836,524.9091249999935
+O,improved_segment,NO,NO,NO(word),No.,No.,True,False,False,1.0,0.0,0.3140000000030341,1028.1347089999997
+O,improved_vote,HELP,HELP,HELP(word),Help.,held.,True,False,False,1.0,1.0,1.2587079999946127,521.443875000017
+O,improved_segment,HELP,HELP,HELP(word),Help.,held.,True,False,False,1.0,1.0,1.3481670000032864,523.1264580000072
+O,improved_vote,THANKS,THANKS,THANKS(word),Thanks.,Thanks.,True,False,False,1.0,0.0,2.3267919999909736,523.5375829999782
+O,improved_segment,THANKS,THANKS,THANKS(word),Thanks.,Thanks.,True,False,False,1.0,0.0,2.3349159999952462,529.4431250000002
+O,improved_vote,GOOD,GOOD,GOOD(word),Good.,Good.,True,False,False,1.0,0.0,1.339291999983061,530.5884160000005
+O,improved_segment,GOOD,GOOD,GOOD(word),Good.,Good.,True,False,False,1.0,0.0,1.3237499999831925,532.1690840000031
+O,improved_vote,SORRY,SORRY,SORRY(word),Sorry.,Sorry.,True,False,False,1.0,0.0,1.7706250000060209,523.3545419999928
+O,improved_segment,SORRY,SORRY,SORRY(word),Sorry.,Sorry.,True,False,False,1.0,0.0,1.3446659999942767,519.4730420000155
+O,improved_vote,PLEASE WAIT,PLEASE WAIT,PLEASE(word) WAIT(word),Please wait.,Please wait.,True,False,False,1.0,0.0,3.304999999983238,518.3465419999891
+O,improved_segment,PLEASE WAIT,PLEASE WAIT,PLEASE(word) WAIT(word),Please wait.,Please wait.,True,False,False,1.0,0.0,2.543750000000955,524.3860840000139
+O,improved_vote,CALL A DOCTOR,CALL A DOCTOR,CALL(word) A(word) DOCTOR(word),Call a doctor.,Call a doctor.,True,False,False,1.0,0.0,3.568999999998823,528.750959000007
+O,improved_segment,CALL A DOCTOR,CALL A DOCTOR,CALL(word) A(word) DOCTOR(word),Call a doctor.,Call a doctor.,True,False,False,1.0,0.0,2.5391659999911553,530.2444170000058
+O,improved_vote,MY NAME IS ANNA,MY NAME IS ANNA,MY(word) NAME(word) IS(word) ANNA(word),My name is anna.,My name is Anna.,True,False,False,1.0,0.0,1.6732499999818629,524.2027919999828
+O,improved_segment,MY NAME IS ANNA,MY NAME IS ANNA,MY(word) NAME(word) IS(word) ANNA(word),My name is anna.,My name is Anna.,True,False,False,1.0,0.0,1.6489999999862448,529.7726670000031
+O,improved_vote,SEE YOU LATER,SEE YO LATER,SEE(word) YOU(word) LATER(word),See you later.,See you later.,True,False,False,0.9231,0.0,1.7753330000118694,524.1911250000157
+O,improved_segment,SEE YOU LATER,SEE YOU LATER,SEE(word) YOU(word) LATER(word),See you later.,See you later.,True,False,False,1.0,0.0,2.7878749999956653,527.8444589999935
+O,improved_vote,I FEEL SICK,I FEEL SICK,I(word) FEEL(word) SICK(word),I feel sick.,I feel sick.,True,False,False,1.0,0.0,1.5889590000028875,531.8343749999883
+O,improved_segment,I FEEL SICK,I FEEL SICK,I(word) FEEL(word) SICK(word),I feel sick.,I feel sick.,True,False,False,1.0,0.0,1.9934579999869584,527.927333000008
+O,improved_vote,WATER PLEASE,WATER PLEASE,WATER(word) PLEASE(word),Water please.,Water please.,True,False,False,1.0,0.0,3.0133749999947668,529.2390420000004
+O,improved_segment,WATER PLEASE,WATER PLEASE,WATER(word) PLEASE(word),Water please.,Water please.,True,False,False,1.0,0.0,4.056625000004033,528.0021250000004
+O,improved_vote,THANK YOU,THANK YO,THANK(word) YOU(word),Thank you.,Thank you.,True,False,False,0.8889,0.0,1.9005000000049677,526.4703750000024
+O,improved_segment,THANK YOU,THANK YOU,THANK(word) YOU(word),Thank you.,Thank you.,True,False,False,1.0,0.0,2.227041999987023,543.0362500000001

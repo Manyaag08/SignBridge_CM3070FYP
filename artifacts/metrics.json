@@ -1,0 +1,154 @@
+{
+  "dataset": {
+    "source": "MohdDilshad-nitk/ASL_Recognition (MediaPipe Hands keypoint.csv)",
+    "n_samples": 4162,
+    "n_features": 42,
+    "n_classes": 26,
+    "per_class_counts": {
+      "A": 184,
+      "B": 166,
+      "C": 207,
+      "D": 272,
+      "E": 150,
+      "F": 167,
+      "G": 105,
+      "H": 109,
+      "I": 133,
+      "J": 102,
+      "K": 185,
+      "L": 142,
+      "M": 134,
+      "N": 103,
+      "O": 103,
+      "P": 109,
+      "Q": 132,
+      "R": 180,
+      "S": 175,
+      "T": 177,
+      "U": 142,
+      "V": 237,
+      "W": 232,
+      "X": 166,
+      "Y": 115,
+      "Z": 235
+    },
+    "note": "single contiguous block per letter (one recording session per class)"
+  },
+  "eval_stratified_kfold": {
+    "accuracy": 0.9983,
+    "macro_f1": 0.998,
+    "caveat": "frames within a class are temporally correlated; this over-estimates real performance because correlated frames leak across folds"
+  },
+  "eval_temporal_split": {
+    "accuracy": 0.9619,
+    "macro_f1": 0.9732,
+    "train_n": 2901,
+    "test_n": 1261,
+    "note": "later frames of each recording held out -> reduces frame leakage"
+  },
+  "per_class_accuracy": {
+    "A": 1.0,
+    "B": 1.0,
+    "C": 1.0,
+    "D": 1.0,
+    "E": 1.0,
+    "F": 0.988,
+    "G": 0.981,
+    "H": 1.0,
+    "I": 0.992,
+    "J": 1.0,
+    "K": 1.0,
+    "L": 1.0,
+    "M": 0.993,
+    "N": 0.99,
+    "O": 1.0,
+    "P": 1.0,
+    "Q": 1.0,
+    "R": 1.0,
+    "S": 1.0,
+    "T": 1.0,
+    "U": 1.0,
+    "V": 1.0,
+    "W": 1.0,
+    "X": 1.0,
+    "Y": 1.0,
+    "Z": 1.0
+  },
+  "top_confusions": [
+    {
+      "true": "F",
+      "pred": "R",
+      "count": 2
+    },
+    {
+      "true": "G",
+      "pred": "H",
+      "count": 2
+    },
+    {
+      "true": "I",
+      "pred": "S",
+      "count": 1
+    },
+    {
+      "true": "M",
+      "pred": "S",
+      "count": 1
+    },
+    {
+      "true": "N",
+      "pred": "M",
+      "count": 1
+    }
+  ],
+  "robustness_curve": {
+    "perturbation_level": [
+      0.0,
+      0.01,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1
+    ],
+    "accuracy": [
+      0.9995,
+      0.9995,
+      0.9993,
+      0.9952,
+      0.9767,
+      0.9373,
+      0.8844
+    ]
+  },
+  "onnx_export": {
+    "model_size_bytes": 63781,
+    "model_size_kb": 62.3,
+    "sklearn_vs_onnx_agreement": 1.0
+  },
+  "benchmark_cpu_1thread": {
+    "landmark_mlp": {
+      "p50_ms": 0.012,
+      "p95_ms": 0.013,
+      "mean_ms": 0.012,
+      "size_kb": 62.3,
+      "params_macs": 15232,
+      "max_fps_single_thread": 83333.0
+    },
+    "pixel_cnn": {
+      "p50_ms": 9.451,
+      "p95_ms": 10.071,
+      "mean_ms": 9.824,
+      "size_kb": 442.7,
+      "params_macs": 403219712,
+      "max_fps_single_thread": 105.8
+    },
+    "cnn_slower_than_mlp_x": 787.6,
+    "cnn_more_macs_x": 26472.0
+  },
+  "latency_budget_context": {
+    "design_target_end_to_end_ms": 500,
+    "classifier_p50_ms": 0.012,
+    "classifier_share_of_budget_pct": 0.0
+  }
+}

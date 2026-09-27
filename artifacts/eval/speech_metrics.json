@@ -1,0 +1,112 @@
+{
+  "model": "openai-whisper base (CPU, fp16=False, 4 threads)",
+  "S1_librispeech_test_clean": {
+    "n": 100,
+    "n_speakers": 21,
+    "wer": 0.0409,
+    "per_speaker_wer": {
+      "6930": 0.0255,
+      "1320": 0.041,
+      "7729": 0.0317,
+      "3575": 0.0786,
+      "2961": 0.0638,
+      "8230": 0.0,
+      "1995": 0.0645,
+      "5142": 0.0541,
+      "2830": 0.0562,
+      "4446": 0.0353,
+      "1221": 0.0127,
+      "8224": 0.0574,
+      "672": 0.0411,
+      "3729": 0.0394,
+      "1089": 0.0,
+      "2300": 0.025,
+      "1580": 0.0588,
+      "4970": 0.05,
+      "61": 0.058,
+      "237": 0.0753,
+      "5683": 0.0238
+    },
+    "worst_speaker_wer": 0.0786,
+    "best_speaker_wer": 0.0,
+    "latency_p50_ms": 443.8,
+    "latency_p95_ms": 897.3,
+    "rtf_mean": 0.075
+  },
+  "S2_librispeech_test_other": {
+    "n": 60,
+    "n_speakers": 12,
+    "wer": 0.0977,
+    "per_speaker_wer": {
+      "7902": 0.0667,
+      "4198": 0.1231,
+      "5764": 0.06,
+      "3331": 0.1091,
+      "3528": 0.0476,
+      "6938": 0.0968,
+      "367": 0.0743,
+      "3764": 0.0226,
+      "1688": 0.0633,
+      "1998": 0.2432,
+      "6432": 0.0638,
+      "2414": 0.2909
+    },
+    "worst_speaker_wer": 0.2909,
+    "best_speaker_wer": 0.0226,
+    "latency_p50_ms": 368.5,
+    "latency_p95_ms": 613.6,
+    "rtf_mean": 0.093
+  },
+  "S3_noise_robustness": {
+    "snr_20db": {
+      "wer": 0.0422,
+      "latency_p50_ms": 534.5
+    },
+    "snr_10db": {
+      "wer": 0.0676,
+      "latency_p50_ms": 2583.6
+    },
+    "snr_5db": {
+      "wer": 0.1098,
+      "latency_p50_ms": 2825.4
+    },
+    "snr_0db": {
+      "wer": 0.2895,
+      "latency_p50_ms": 3066.3
+    },
+    "clean": {
+      "wer": 0.0362,
+      "latency_p50_ms": 2696.6
+    }
+  },
+  "S4_call_phrases_synthetic_voices": {
+    "n": 160,
+    "n_speakers": 8,
+    "wer": 0.0659,
+    "per_speaker_wer": {
+      "Samantha": 0.011,
+      "Daniel": 0.044,
+      "Karen": 0.0549,
+      "Rishi": 0.022,
+      "Moira": 0.011,
+      "Tessa": 0.022,
+      "Fred": 0.0989,
+      "Albert": 0.2637
+    },
+    "worst_speaker_wer": 0.2637,
+    "best_speaker_wer": 0.011,
+    "latency_p50_ms": 2092.4,
+    "latency_p95_ms": 2573.6,
+    "rtf_mean": 1.579,
+    "voices": [
+      "Samantha",
+      "Daniel",
+      "Karen",
+      "Rishi",
+      "Moira",
+      "Tessa",
+      "Fred",
+      "Albert"
+    ]
+  }
+}

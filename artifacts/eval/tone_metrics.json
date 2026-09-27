@@ -1,0 +1,303 @@
+{
+  "model": "tabularisai/multilingual-sentiment-analysis (DistilBERT-multilingual, 5-class)",
+  "baseline": "VADER (rule-based)",
+  "T1_sst5": {
+    "n": 2210,
+    "five_class": {
+      "accuracy": 0.3647,
+      "macro_f1": 0.3247,
+      "per_class_f1": {
+        "very negative": 0.293,
+        "negative": 0.512,
+        "neutral": 0.249,
+        "positive": 0.36,
+        "very positive": 0.209
+      },
+      "confusion": [
+        [
+          67,
+          150,
+          54,
+          5,
+          3
+        ],
+        [
+          57,
+          395,
+          137,
+          38,
+          6
+        ],
+        [
+          23,
+          173,
+          118,
+          62,
+          13
+        ],
+        [
+          21,
+          140,
+          135,
+          172,
+          42
+        ],
+        [
+          10,
+          52,
+          115,
+          168,
+          54
+        ]
+      ]
+    },
+    "three_class": {
+      "accuracy": 0.5534,
+      "macro_f1": 0.5034,
+      "per_class_f1": {
+        "negative": 0.669,
+        "neutral": 0.249,
+        "positive": 0.592
+      },
+      "confusion": [
+        [
+          669,
+          191,
+          52
+        ],
+        [
+          196,
+          118,
+          75
+        ],
+        [
+          223,
+          250,
+          436
+        ]
+      ]
+    },
+    "vader_three_class": {
+      "accuracy": 0.5344,
+      "macro_f1": 0.4765,
+      "per_class_f1": {
+        "negative": 0.528,
+        "neutral": 0.256,
+        "positive": 0.645
+      },
+      "confusion": [
+        [
+          399,
+          189,
+          324
+        ],
+        [
+          94,
+          103,
+          192
+        ],
+        [
+          107,
+          123,
+          679
+        ]
+      ]
+    },
+    "mean_ms_per_sentence_batched": 22.57
+  },
+  "T2_call_dialogue": {
+    "n": 60,
+    "labels": "author-labelled",
+    "three_class": {
+      "accuracy": 0.9167,
+      "macro_f1": 0.917,
+      "per_class_f1": {
+        "negative": 0.909,
+        "neutral": 0.923,
+        "positive": 0.919
+      },
+      "confusion": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          2,
+          18,
+          0
+        ],
+        [
+          2,
+          1,
+          17
+        ]
+      ]
+    },
+    "vader_three_class": {
+      "accuracy": 0.8167,
+      "macro_f1": 0.8175,
+      "per_class_f1": {
+        "negative": 0.833,
+        "neutral": 0.762,
+        "positive": 0.857
+      },
+      "confusion": [
+        [
+          15,
+          5,
+          0
+        ],
+        [
+          0,
+          16,
+          4
+        ],
+        [
+          1,
+          1,
+          18
+        ]
+      ]
+    },
+    "errors": [
+      [
+        "I feel much better today.",
+        "positive",
+        "negative"
+      ],
+      [
+        "Congratulations on the new baby!",
+        "positive",
+        "neutral"
+      ],
+      [
+        "The pain has completely gone.",
+        "positive",
+        "negative"
+      ],
+      [
+        "We need to fill in this form first.",
+        "neutral",
+        "negative"
+      ],
+      [
+        "I am calling about my prescription.",
+        "neutral",
+        "negative"
+      ]
+    ]
+  },
+  "T3_multilingual": {
+    "spanish": {
+      "n": 20,
+      "three_class": {
+        "accuracy": 0.7,
+        "macro_f1": 0.6882,
+        "per_class_f1": {
+          "negative": 0.545,
+          "neutral": 0.769,
+          "positive": 0.75
+        },
+        "confusion": [
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            1,
+            5,
+            1
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ]
+      },
+      "vader_three_class": {
+        "accuracy": 0.4,
+        "macro_f1": 0.336,
+        "per_class_f1": {
+          "negative": 0.286,
+          "neutral": 0.5,
+          "positive": 0.222
+        },
+        "confusion": [
+          [
+            1,
+            5,
+            0
+          ],
+          [
+            0,
+            6,
+            1
+          ],
+          [
+            0,
+            6,
+            1
+          ]
+        ]
+      }
+    },
+    "french": {
+      "n": 20,
+      "three_class": {
+        "accuracy": 0.9,
+        "macro_f1": 0.8968,
+        "per_class_f1": {
+          "negative": 0.833,
+          "neutral": 1.0,
+          "positive": 0.857
+        },
+        "confusion": [
+          [
+            5,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ]
+      },
+      "vader_three_class": {
+        "accuracy": 0.35,
+        "macro_f1": 0.1728,
+        "per_class_f1": {
+          "negative": 0.0,
+          "neutral": 0.519,
+          "positive": 0.0
+        },
+        "confusion": [
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            7,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

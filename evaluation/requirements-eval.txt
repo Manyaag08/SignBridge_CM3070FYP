@@ -1,0 +1,17 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+onnx
+onnxruntime
+skl2onnx
+mediapipe==0.10.14
+opencv-python-headless
+openai-whisper
+torch
+transformers
+jiwer
+soundfile
+vaderSentiment
+pytest
+wordfreq
